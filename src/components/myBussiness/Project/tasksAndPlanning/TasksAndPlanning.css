@@ -1,0 +1,264 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.tasks-and-planning-title {
+  margin-bottom: 2rem !important;
+}
+.search-box-task {
+  width: 335px;
+  height: 40.33px;
+  border-radius: 4px;
+
+  background-color: rgba(4, 4, 4, 0.03);
+  border: none;
+  padding-left: 15px !important;
+  font-size: 15px;
+  margin: 3rem 2rem;
+}
+.btn-create-project {
+  width: 147.95px;
+  display: flex;
+  flex-direction: column;
+}
+.content-header-task {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3rem;
+}
+button.btn-add-plan {
+  height: 35px !important;
+  width: 103px !important;
+  border-radius: 2px;
+  background-color: #e0e0e0;
+  margin-left: 5rem;
+}
+.create-project-task {
+  width: 147.95px;
+  height: 40.33px;
+  background-color: #0790c9;
+  margin: 3rem 0rem;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 15px;
+}
+.create-project-task {
+  color: #fff;
+  background-color: #0790c9;
+}
+.create-project-task:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #056d98;
+}
+.new-task-link {
+  margin-bottom: 2rem;
+}
+/* .container-planning-task {
+  border: 1px solid gray;
+}
+.rows-planning-task {
+  width: 100%;
+}
+.row-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+table .tasks-and-planning {
+  width: 100%;
+}
+.table-name {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 2rem;
+}
+.table-progress {
+  width: 70px;
+  height: 25px;
+  background: #e7e8e8;
+  border-radius: 100px / 90px;
+  text-align: center;
+}
+
+#invoice-tamp-select .dropdown-toggle{
+      border: 1px solid black;
+      background: none;
+      appearance: auto;
+      color: black;
+  }
+.progress-length {
+  height: 25px;
+  width: 70px;
+  border-radius: 100px / 90px;
+  background: #bce1b2;
+}
+.progress-value-task {
+  z-index: 100 !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40%;
+  font-size: 11px;
+  color: #000;
+  font-weight: 500;
+  /* width: 70px;
+  height: 25px;
+  border-radius: 100px / 90px;
+  background-color: transparent;
+  color: #000;
+  line-height: inherit; */
+}
+
+.btn-new-task {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0790c9;
+}
+
+.rounded-task {
+  height: 100%;
+  border-radius: 999px;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+
+.progress-container {
+  position: relative;
+}
+
+.show-container {
+  width: 75px;
+}
+
+.progress-task {
+  position: relative;
+  width: 75px !important;
+  height: 25px !important;
+  background-color: #e7e8e8 !important;
+  border-radius: 99px !important;
+}
+.progress-bar-task {
+  position: relative;
+  height: 100%;
+  background-color: #bce1b2 !important;
+  transition: width 0.2s linear;
+}
+
+p.table-cell-value div {
+  justify-content: start !important;
+}
+.project-management-modal input {
+  height: 40px;
+}
+.project-management-modal input,
+.project-management-modal input:focus {
+  border: none;
+  outline: none;
+}
+#work-material-both .work-material-work-table{
+  display:table
+}
+#project-planning-table.project-management-modal select{
+   height: auto;
+   font-size: 13px;
+   line-height: 15px;
+}
+@media (min-width: 1280px){
+  .project-test-planning-modal table{
+     display: table;
+  }
+}
+@media (max-width: 906px) {
+  .content-header-task {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (max-width: 695px) {
+  .content-header-task {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media (max-width: 650px) {
+  .progress-value-task {
+    z-index: 100 !important;
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 40%;
+    font-size: 11px;
+    color: #000;
+    font-weight: 500;
+  }
+}
+@media (max-width: 550px) {
+  .btn-group {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .btn-create-project {
+    margin: 0 2rem;
+  }
+}
+@media (max-width: 479px) {
+  .content-header-task {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 2rem;
+  }
+  .btn-add-plan {
+    margin: 3rem 2rem;
+    padding: 0px;
+  }
+  .btn-create-project {
+    margin: 0;
+  }
+  .search-box-task {
+    margin: 3rem 0;
+    width: 100%;
+  }
+  .progress-value-task {
+    z-index: 100 !important;
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 40%;
+    font-size: 11px;
+    color: #000;
+    font-weight: 500;
+  }
+  .table-name {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 2rem;
+    padding-top: 7px;
+  }
+}

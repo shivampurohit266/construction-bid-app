@@ -1,0 +1,76 @@
+.dashboard {
+  --quicklinkCard__width: 350px;
+  --textColumns: 1fr 1fr 1fr;
+  --textRows: 1fr;
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.dashboard-wrapper {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 10px 20px;
+  display: grid;
+  grid-auto-flow: row;
+}
+.dashboard-wrapper-content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dashboard .dashboard__heading {
+  text-align: center;
+}
+
+.dashboard .dashboard__text-content {
+  display: grid;
+  font-size: 18px;
+  gap: 30px;
+  grid-template-columns: var(--textColumns);
+  grid-template-rows: var(--textRows);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dashboard .dashboard__text-content > p {
+  margin: 0;
+}
+
+.dashboard .quicklink-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dashboard .quicklink-card {
+  overflow: hidden;
+  display: inline-block;
+  font-size: 18px;
+  padding-bottom: 20px;
+  flex: var(--quicklinkCard__width) 1 0;
+}
+
+.dashboard .quicklink-card__title {
+  align-items: end;
+  display: flex;
+  justify-content: start;
+  min-height: 100px;
+  padding: 20px;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.dashboard .quicklink-card ul {
+  padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  list-style-position: inside;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dashboard {
+    --textColumns: 1fr;
+    --textRows: auto auto auto;
+  }
+}

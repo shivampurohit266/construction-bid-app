@@ -1,0 +1,431 @@
+.report-details {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 1.7rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.report-details-spread {
+  display: flex;
+  gap: 4rem;
+}
+
+.img-business-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 40rem;
+  gap: 2rem;
+}
+
+.date-exec-case {
+  width: 100%;
+  min-width: 460px;
+}
+
+.date-exec-case label {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+.date-exec-case input {
+  height: 4rem;
+  font-size: 1.4rem;
+}
+
+.exec-case {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.exec-case label {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 50%;
+}
+
+.exec-case input {
+  height: 4rem;
+  margin-top: 5px;
+  border: 1px solid #e0e1e1;
+  font-size: 1.4rem;
+  border-radius: 0;
+  padding: 0 12px;
+}
+
+.report-container {
+  background-color: red;
+  border-radius: 25px;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 11px;
+  background-color: #fff;
+  padding-top: 2rem;
+}
+
+.report-container h4 {
+  padding: 3.6rem 0 0 4rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.report-details-form {
+  position: relative;
+  width: 100%;
+  max-width: 850px;
+  margin-left: 4rem;
+  height: 40px;
+}
+
+.report-customer,
+.report-project {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 7px;
+  width: 100%;
+}
+
+.report-customer select {
+  width: 100%;
+  min-width: 23rem;
+}
+
+.report-project-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.report-project-title input {
+  width: 100%;
+}
+
+.report-project {
+  width: 50%;
+}
+
+.select-customer,
+.select-project {
+  height: 4rem;
+  margin-top: 5px;
+  border: 1px solid #e0e1e1;
+  font-size: 1.4rem;
+  border-radius: 0;
+  padding: 0 12px;
+}
+
+.select-customer {
+  width: 52.5%;
+}
+
+.select-customer:focus {
+  border-color: #0790c9;
+}
+
+.select-customer::-ms-expand {
+  display: none;
+}
+
+.add-new-modal {
+  width: 12rem;
+  height: 3.5rem;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #126fbb;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 2.7rem;
+}
+
+.add-new-modal:hover {
+  color: #fff;
+  background-color: #0e538c;
+}
+
+.project-task {
+  display: flex;
+  width: 70%;
+  gap: 30px;
+}
+
+.report-project .select-customer {
+  width: 100%;
+}
+.status {
+  height: 3.5rem;
+  border-radius: 6px;
+}
+
+.task-address {
+  width: 100%;
+  margin-top: 3.2rem;
+}
+
+#textarea {
+  padding-top: 1rem;
+  height: 7rem;
+}
+
+.select_and_button {
+  display: flex;
+  align-items: center;
+}
+
+.report-title-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.report-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.report-preview {
+  display: flex;
+  align-items: center;
+  background-color: #e4e4e4;
+  height: 3.5rem;
+
+  font-size: 13px;
+  color: #000;
+  border-radius: 3px;
+}
+
+.report-preview:hover {
+  background-color: #c2c2c2;
+}
+
+.report-save {
+  display: flex;
+  align-items: center;
+  background-color: #0790c9;
+  height: 3.5rem;
+  border-color: #4cae4c;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.report-save:hover {
+  background-color: #056d9;
+}
+
+.report-modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 27.5%;
+  left: 30%;
+  width: 40vw;
+  z-index: 5;
+  border-radius: 20px;
+  box-shadow: 0 0 40px 0 rgb(0 0 0 / 20%);
+  background-color: #fff;
+}
+
+.report-modal h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 3.2rem 0 0 3.9rem;
+}
+
+.report-modal-form {
+  margin: 2.7rem 3.7rem;
+}
+
+.left-right {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+.left-right .report-customer {
+  width: 100%;
+}
+
+.modal-select-customer {
+  width: 100%;
+}
+.has-error {
+  border: 1px solid red;
+}
+.report-customer modal-phone {
+  background-color: red;
+}
+.modal-phone {
+  width: calc(50% - 15px);
+}
+
+.addcustomer-btn {
+  margin-top: 3rem;
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #0790c9;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.addcustomer-btn:hover {
+  background-color: #056d98;
+}
+
+.close-modal {
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  color: grey;
+}
+
+.expand-edit {
+  display: flex;
+
+  font-size: 1.4rem;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.expand-edit a {
+  color: #007bff;
+}
+
+.image-comments {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.report-image img {
+  width: 12rem;
+}
+
+.report-comments {
+  margin-left: 2rem;
+  max-width: 80rem;
+  width: 100%;
+}
+
+.report-comments label {
+  width: 100%;
+  height: 9rem;
+}
+
+.report-comments textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.edit-delete {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+}
+
+.report-details-edit {
+  background-color: #f7f7f7;
+  border: 1px solid #d0d0d0;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 970px) {
+  .report-comments {
+    width: 60%;
+  }
+  .report-details-form {
+    width: auto;
+  }
+
+  .edit-files-dropzone label {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project-task {
+    width: 90%;
+  }
+  .task-address {
+    width: 90%;
+  }
+  .report-save {
+    padding: 15px 30px;
+  }
+
+  .report-details-spread {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .project-task {
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .select_and_button {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .add-new-modal {
+    margin: 1rem 0 0 0;
+  }
+
+  .exec-case {
+    flex-direction: column;
+  }
+
+  .date-exec-case {
+    width: auto;
+    min-width: 0;
+  }
+
+  .report-project {
+    width: 100%;
+  }
+
+  .report-container {
+    height: 80vh;
+  }
+
+  .date-exec-case label {
+    width: 100%;
+  }
+
+  .image-comments {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .report-comments {
+    width: 90%;
+  }
+}

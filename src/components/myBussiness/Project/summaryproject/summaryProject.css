@@ -1,0 +1,90 @@
+.myProjects_summary-headings {
+  display: grid;
+  background-color: #e5e5e5;
+  /* overflow: -moz-hidden-unscrollable; */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: 13px;
+  height: 57px;
+}
+.myProjects_summary-headings button {
+  margin: auto;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.myProjects_summary-headings button.active {
+  color: #fff;
+  background-color: #9c8ec1;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card-attachment {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+p {
+  font-size: 14px;
+  line-height: 29px;
+}
+table tr th {
+  font-size: 13px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.5);
+}
+table tr td {
+  font-size: 13px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+}
+.images-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.image-box {
+  height: 98.83393096923828px;
+  width: 117.55247497558594px;
+  left: 36px;
+  top: 414px;
+  border-radius: 3px;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 2rem 3rem 0;
+}
+.bider-table {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  /* height: 70px; */
+}
+@media (max-width: 1146px) {
+  .myProjects_summary-headings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .myProjects_summary-headings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+  }
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .card-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

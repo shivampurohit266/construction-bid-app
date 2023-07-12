@@ -1,0 +1,95 @@
+#project-planning-table table#mytable{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.project-planning-tabs #mytable thead tr ,.project-planning-tabs #mytable tbody tr{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+}
+.project-planning-tabs #mytable thead tr th , 
+.project-planning-tabs #mytable tbody tr td, 
+.project-planning-tabs #mytable tbody tr td input,
+#project-planning-table .work-item , 
+#project-planning-table .work-item-detail{
+    display: flex;
+    width: 100%;
+}
+.tax-tr td:first-child  , 
+.sub-total-field td:nth-child(2),
+.profit-tr td:first-child,
+.total-tr td:first-child,
+.total-tr td:last-child,
+.profit-tr td:last-child,
+.tax-tr td:last-child,
+.sub-total-field td:last-child{
+    justify-content: end;
+}
+.project-planning-tabs #mytable .mat_cost{
+    text-align: right;
+}
+.tax-tr td:last-child , .profit-tr td:last-child {
+    grid-column-end: span 2;
+}
+.project-planning-tabs #mytable button.add-row-btn{
+    grid-column-end: span 3;
+}
+.add_item_btn {
+    grid-column-end: span 3;
+    display: flex;
+    justify-content: start;
+}
+.customerIDCell td:last-child{
+    justify-content: end;
+}
+@media (min-width: 768px){    
+    .project-planning-tabs #mytable thead tr th:first-child ,.project-planning-tabs #mytable tbody tr td:first-child{
+        grid-column-end: span 2;
+    }
+    .project-planning-tabs #mytable .sub-total-field td:nth-child(3){
+        grid-column-end: span 3;
+    } 
+    .project-planning-tabs #mytable .tax-tr td:first-child ,
+    .project-planning-tabs #mytable .profit-tr td:first-child , 
+    .project-planning-tabs #mytable .total-tr td:first-child , 
+    .project-planning-tabs #mytable .total-tr td:last-child{
+        grid-column-end: span 3;
+    }
+}
+@media (max-width:768px){
+    .project-planning-tabs #mytable thead tr ,.project-planning-tabs #mytable tbody tr{
+        grid-template-columns: repeat(4 ,1fr);
+    }
+        /* #mytable tr th:nth-child(3), */
+     /* #mytable .customerIDCell td:nth-child(3) */
+    .project-planning-tabs #mytable tr th:nth-child(2) ,
+    .project-planning-tabs #mytable .customerIDCell td:nth-child(2) {
+        display: none;
+    }
+    .project-planning-tabs #mytable .sub-total-field td:nth-child(3){
+        grid-column-end: span 2;
+    } 
+    .nav-pills li a{
+       padding-left: 10px;
+       padding-right: 10px;
+       text-align: center;
+       align-items: center;
+    }
+    .project-planning-tabs .nav li a{
+        height: 100%;
+        margin-bottom: 0;
+    }
+    .project-planning-tabs .nav li{
+        margin-bottom: 30px;
+    }
+   .project-planning-tabs #mytable .total-tr td:last-child{
+        grid-column-end: span 3;
+    }
+    .project-planning-tabs #mytable{
+        margin-bottom: 40px;
+    }
+    .tab-pane .btn-without-radius{
+       margin-top: 20px;
+    }
+}

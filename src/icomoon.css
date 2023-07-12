@@ -1,0 +1,153 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ekhub');
+  src:  url('fonts/icomoon.eot?ekhub#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ekhub') format('truetype'),
+    url('fonts/icomoon.woff?ekhub') format('woff'),
+    url('fonts/icomoon.svg?ekhub#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-agreeement:before {
+  content: "\e900";
+}
+.icon-client:before {
+  content: "\e901";
+}
+.icon-invoice:before {
+  content: "\e904";
+}
+.icon-Phase:before {
+  content: "\e907";
+}
+.icon-Project:before {
+  content: "\e908";
+}
+.icon-proposal:before {
+  content: "\e909";
+}
+.icon-Favourite:before {
+  content: "\e902";
+}
+.icon-Feeds:before {
+  content: "\e903";
+}
+.icon-My-bid:before {
+  content: "\e905";
+}
+.icon-mycontract:before {
+  content: "\e906";
+}
+.icon-euro:before {
+  content: "\e90a";
+}
+.icon-edit:before {
+  content: "\e90b";
+}
+.icon-arrow-top:before {
+  content: "\e90c";
+}
+.icon-add:before {
+  content: "\e90d";
+}
+.icon-link:before {
+  content: "\e90e";
+}
+.icon-attachment:before {
+  content: "\e90f";
+}
+.icon-list-view:before {
+  content: "\e910";
+}
+.icon-search:before {
+  content: "\e911";
+}
+.icon-edit-file:before {
+  content: "\e912";
+}
+.icon-heart-o:before {
+  content: "\f08a";
+}
+.icon-fillter:before {
+  content: "\e913";
+}
+.icon-fillter-o:before {
+  content: "\e914";
+}
+.icon-offce-details:before {
+  content: "\e915";
+}
+.icon-right:before {
+  content: "\e916";
+}
+.icon-left:before {
+  content: "\e917";
+}
+.icon-down:before {
+  content: "\e918";
+}
+.icon-request:before {
+  content: "\e919";
+}
+.icon-dashboard:before {
+  content: "\e91a";
+}
+.icon-work:before {
+  content: "\e91b";
+}
+.icon-materials:before {
+  content: "\e91c";
+}
+.icon-jobs:before {
+  content: "\e91d";
+}
+.icon-paperclip:before {
+  content: "\e91e";
+}
+.icon-dots-three-vertical:before {
+  content: "\e91f";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e920";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-chat:before {
+  content: "\e96d";
+}
+.icon-trash-o:before {
+  content: "\f014";
+}
+.icon-calendar:before {
+  content: "\f073";
+}
+.icon-bell-o:before {
+  content: "\f0a2";
+}
+.icon-bell-slash:before {
+  content: "\f1f6";
+}
+.icon-bell-slash-o:before {
+  content: "\f1f7";
+}
+.icon-trash:before {
+  content: "\f1f8";
+}

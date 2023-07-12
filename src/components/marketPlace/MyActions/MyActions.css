@@ -1,0 +1,363 @@
+.notification-badges [data-badge] {
+  position: relative;
+}
+.notification-badges [data-badge]:after {
+  position: absolute;
+  right: -15px;
+  top: -40px;
+  min-width: 10px;
+  min-height: 10px;
+  line-height: 10px;
+  padding: 5px;
+  color: #fff;
+  background-color: #dc3545;
+  font-size: 10px;
+  border-radius: 20px;
+  content: attr(data-badge);
+  border: solid 1px #c93a3a;
+}
+
+/* .myActions-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+ 
+  padding: 2rem 0;
+  border-radius: 10px;
+  margin: 0 2.5rem;
+}
+
+.myActions-search ul {
+  width: 100%;
+  max-width: 70rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.myActions-search ul li {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.myActions-search ul li select {
+  height: 4rem;
+  width: 15rem;
+  border: 1px solid #e0e1e1;
+  padding-left: 10px;
+}
+
+.each-listing-inactive {
+  display: none;
+}
+
+.each-listing-my-list {
+  display: grid;
+  align-content: center;
+}
+
+.each-listing-title .title {
+  color: #007bff;
+}
+
+.each-listing-title-mat-offer {
+  display: flex;
+  gap: 10px;
+}
+
+.myActions-all {
+ 
+  margin-top: 3rem;
+  margin: 0 2.5rem;
+  border-radius: 10px;
+  background-color: #fff;
+  padding-bottom: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.myActions-listing {
+  border-collapse: collapse;
+  margin: 0;
+}
+td {
+  padding: 0px 15px 10px;
+}
+.myActions-trash {
+  width: 25px;
+  display: grid;
+  align-content: center;
+}
+
+.myActions-headings {
+  display: flex;
+  gap: 2rem;
+  font-weight: 400;
+
+  margin: 2rem 4rem;
+}
+.myActions-headings button {
+  border: 1px solid #e0e1e1;
+  font-size: 1.4rem;
+  padding: 10px 15px;
+}
+.listing__details-link {
+  display: inline-block;
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+.myActions-search {
+  margin: 0 2.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+ 
+  max-width: 1500px;
+  padding: 2rem 0;
+}
+
+.myActions-search-title {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .myActions-all {
+    height: 100%;
+    overflow: auto;
+  }
+
+  .myActions-listing thead {
+    display: none;
+  }
+  .myActions-listing,
+  .myActions-listing tbody,
+  .myActions-listing tr,
+  .myActions-listing td {
+    display: block;
+    width: 100%;
+  }
+  .myActions-listing tr {
+    margin-bottom: 15px;
+  }
+  .myActions-listing td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    padding-right: 15px;
+  }
+  .myActions-listing td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    padding-left: 15px;
+    text-align: left;
+    padding: auto;
+  }
+  .btn .btn-gray .mt-3 {
+    margin-top: 0px !important;
+    margin-bottom: 1rem;
+  }
+}
+.table tbody tr:nth-child(even) {
+  background-color: rgb(243, 243, 243);
+} */
+
+.myActions-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  /* width: 90%; */
+  padding: 2rem 0;
+  border-radius: 20px;
+  margin: 0 2.5rem;
+}
+
+.myActions-search ul {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 0;
+}
+
+.myActions-search ul li {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.myActions-search ul li select {
+  height: 4rem;
+  width: 15rem;
+  border: 1px solid #e0e1e1;
+  padding-left: 10px;
+}
+
+.myActions-all {
+  width: 90%;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  padding-bottom: 2rem;
+  /*  */
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.myActions-listing ul {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  height: 100%;
+  /* gap: 20px; */
+  padding-top: 2rem;
+  /* margin-left: 4rem; */
+}
+
+.myActions-listing ul li {
+  list-style-type: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.each-listing {
+  /* display: grid; */
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  padding: 0px 15px;
+  color: #000000;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  border-color: #e3e3e3;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.each-listing-inactive {
+  display: none;
+}
+
+.each-listing-my-list {
+  display: grid;
+  align-content: center;
+}
+​.each-listing-title .title {
+  color: #007bff;
+}
+
+.each-listing-title-mat-offer {
+  display: flex;
+  gap: 10px;
+}
+
+.each-listing-status {
+  padding-left: 35px;
+}
+​.myActions-trash {
+  width: 25px;
+  display: grid;
+  align-content: center;
+}
+
+.myActions-headings {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.myActions-headings button {
+  border: unset;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 5px 25px;
+  border-bottom: 2.5px solid transparent;
+  white-space: nowrap;
+}
+.myActions-headings button.active {
+  color: #000;
+  border-color: #0790c9;
+}
+
+.myActions-search {
+  /* margin: 0 2.5rem; */
+  background-color: #fff;
+  border-radius: 10px;
+  /* width: 90%; */
+  /* max-width: 1500px; */
+  /* padding: 2rem 0; */
+}
+
+.myActions-search-title {
+  margin-left: 2.6rem;
+  margin-top: 2rem;
+}
+
+/* @media (max-width: 768px) {
+  .myActions-all {
+    height: 100%;
+    overflow: auto;
+  }
+
+  .myActions-listing thead {
+    display: none;
+  }
+  .myActions-listing,
+  .myActions-listing tbody,
+  .myActions-listing tr,
+  .myActions-listing td {
+    display: block;
+    width: 100%;
+  }
+  .myActions-listing tr {
+    margin-bottom: 15px;
+  }
+  .myActions-listing td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    padding-right: 15px;
+  }
+  .myActions-listing td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    padding-left: 15px;
+    text-align: left;
+    padding: auto;
+  }
+  .btn .btn-gray .mt-3 {
+    margin-top: 0px !important;
+    margin-bottom: 1rem;
+  }
+}
+.table tbody tr:nth-child(even) {
+  background-color: rgb(243, 243, 243);
+} */
+/* .table-responsive {
+ 
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  padding-bottom: 2rem;
+  
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.table {
+  border-collapse: collapse;
+  margin: 0;
+} */

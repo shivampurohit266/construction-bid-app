@@ -1,0 +1,8 @@
+.document__summary-task-attachment,
+.document__summary-checkpoint-attachment,
+.document__summary-report-attachment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}

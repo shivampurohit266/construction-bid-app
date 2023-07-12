@@ -1,0 +1,168 @@
+.searchfield input {
+  height: 4rem;
+  width: 22rem;
+  margin-left: 1.4rem;
+  background-color: #e6e8e8;
+  border-radius: 6px;
+  border: none;
+  padding-right: 40px;
+  padding-left: 12px;
+  font-size: 1.5rem;
+}
+
+.search-btn {
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  background-color: #0790c9;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.search-btn:hover {
+  background-color: #056d98;
+}
+
+.project-container {
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+  background-color: #fff;
+  border-radius: 15px;
+  padding-bottom: 2rem;
+}
+.table-titles {
+  height: 5rem;
+  display: grid;
+}
+
+.table-titles ul {
+  display: grid;
+  grid-template-columns: 1.3fr 1.3fr 0.7fr 1.5fr 0.6fr 0.2fr;
+  width: 58vw;
+
+  padding-top: 3rem;
+}
+
+.table-titles ul li {
+  list-style-type: none;
+  font-size: 1.5rem;
+
+  border-color: #fff;
+  border-bottom: 1px solid #e3e3e3;
+  font-weight: 500;
+  color: #9a9a9a;
+
+  white-space: nowrap;
+}
+
+.create-report {
+  float: right;
+  margin-top: 4px;
+  /* margin-right: 10px; */
+  padding: 6px 15px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: none;
+  background-color: #0790c9;
+  color: #fff;
+}
+
+.create-report:hover {
+  background-color: #056d98;
+  text-decoration: none;
+  color: #fff;
+}
+
+.create_report_records {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.no_record_found {
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 70%;
+  padding: 10px 15px;
+  color: #000000;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  border-color: #e3e3e3;
+}
+
+.each-report {
+  width: 54vw;
+  display: grid;
+  grid-template-columns: 1.3fr 1.3fr 0.7fr 1.5fr 0.4fr 0.2fr;
+
+  /* justify-items: center; */
+  color: #000000;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  border: 1px solid #e3e3e3;
+}
+
+.each-report p {
+  padding: 10px 15px;
+  color: #000000;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  border-color: #e3e3e3;
+  margin: 0;
+  overflow: auto;
+}
+
+.each-report div {
+  position: relative;
+}
+.each-report div button {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #000;
+}
+
+.threeDots {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  background-color: #fff;
+  padding: 14px 22px;
+  box-shadow: 0 0 14px -2px rgb(0 0 0 / 10%);
+  border: 1px solid #e6e6e6;
+  border-radius: 7px;
+  min-width: 170px;
+}
+
+.threeDots a {
+  color: #000;
+}
+
+@media only screen and (max-width: 1600px) {
+  .each-report {
+    width: 77vw;
+  }
+
+  .table-titles ul {
+    width: 82vw;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .table-titles ul {
+    width: 100%;
+  }
+
+  .each-report {
+    width: 100%;
+  }
+
+  .create_report_records {
+    margin: 1rem 2rem;
+  }
+}

@@ -1,0 +1,27 @@
+.registration-confirm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  font-size: 1.5rem;
+  z-index: 5;
+
+  border-radius: 15px;
+}
+
+.registration-confirm button {
+  margin-top: 5rem;
+  background-color: #28a745;
+  color: white;
+  border-radius: 15px;
+}
+
+.signup_error {
+  color: red;
+}
+
+/* .borderError {
+  border: 1px solid #fca1c9;
+  border-radius: 5px;
+  margin: 0;
+} */

@@ -1,0 +1,2653 @@
+{
+  "translation": {
+    "success": {
+      "SuccessPopup": "Salvestamine õnnestus!",
+
+      "Upload": "Lisa...",
+
+      "mat_ins": "Materjal loodud",
+
+      "work_ins": "Töö loodud",
+
+      "work_bid": "Pakkumine tööst loodud",
+
+      "mat_bid": "Pakkumine materjalist loodud",
+
+      "agreement": "Leping loodud",
+
+      "cus_ins": "Klient loodud",
+
+      "cus_upd": "Kliendi info uuenda tud",
+
+      "res_ins": "Ressurss loodud",
+
+      "res_upd": "Ressursi andmed uuendatud",
+
+      "inv_ins": "Arve loodud",
+
+      "prop_ins": "Pakkumine loodud",
+
+      "phase_ins": "Operatsioon loodud",
+
+      "phase_upd": "Operatsioon uuendatud",
+
+      "pass_mat": "Parool on vale",
+
+      "unique": "Unikaalne parool vajatud",
+
+      "all_fields_are_required": "Kõik väljad tuleb täita",
+
+      "bid_once": "Saad pakkuda ainult ühe korra",
+
+      "authentication_failed": "Turvastamine ebaõnnestus",
+
+      "email_not_found": "E-posti aadressi ei leidu!",
+
+      "confirmation": "Saatsime teile konto kinnitamiseks lingi. Avage oma meilile saadetud link ja kinnitage sisselogimiseks oma konto. Kui te meili ei saanud, kontrollige oma rämpspost.",
+
+      "email_taken": "E-post on juba kasutusel"
+    },
+
+    "login": {
+      "userNameAvailable": "Kasutajatunnus on saadaval",
+
+      "userNameNotAvailable": "Kasutajanimi ei ole saadaval",
+
+      "CompanyNameAvailable": "Ettevõtte nimi on saadaval",
+
+      "CompanyNameNotAvailable": "Ettevõtte nimi ei ole saadaval",
+
+      "SuccessPopup": "Salvestamine õnnestus!",
+
+      "privacyFI": " Privaatsuspoliitika",
+
+      "andFI": "ja ",
+
+      "termsFI": " Kasutustingimused ",
+
+      "termsFILunk": "ja nõustun nendega.",
+
+      "Promotional": "Minule saab saata e-posti ProppU-teenusest",
+
+      "terms_c": "Olen lugenud",
+
+      "terms_c_l": "Kasutustingimused.",
+
+      "email": "e-post",
+
+      "back_to": "Tagasi sisselogimislehele",
+
+      "Password": "parool",
+
+      "signin": "Logi sisse",
+
+      "Reset": "Vaheta parooli",
+
+      "company": "Ettevõte",
+
+      "company1": "Ettevõte",
+
+      "individual": "Füüsilisest isikust ettevõtja",
+
+      "consumer": "Tarbija",
+
+      "email_not_found": "E-posti aadressi ei leidu!",
+
+      "Loading": "Lisa...",
+
+      "Email_sent!": "E-post saadetud!",
+
+      "valid_email": "Lisa kehtiv e-posti aadress.",
+
+      "Service_Provider": "Teenuse pakkuja",
+
+      "Provider_item": "Pakkuja toode",
+
+      "Select": "Valige...",
+
+      "Finland": "soome keel",
+
+      "English(US)": "inglese keel",
+
+      "Estonian": "eesti keel",
+
+      "welcome": "Tere tulemast ProppU-platvormile!",
+
+      "valid_crede": "Sööda kehtiv kasutajatunnus ja parool.",
+
+      "tag": " Koht elamise spetsialistidele ",
+
+      "login": "Logi sisse",
+
+      "for_msg": "Unustasid parooli?",
+
+      "reg_msg": "Pole veel kasutajat?",
+
+      "back_msg": " Tagasi sisselogimisele",
+
+      "get_started": "Registreeri",
+
+      "are_you": "Kas oled?",
+
+      "back_to_login": " Tagasi sisselogimislehele "
+    },
+
+    "index": {
+      "title": "Majanduskoht",
+
+      "title2": "Majanduskoha töölaud",
+
+      "materials": "Materjalid",
+
+      "work": "Tööd/Tükitööd",
+
+      "request": "Pakkumissoovid",
+
+      "offers": "Minu pakkumised",
+
+      "jobs": "Lemmikud",
+
+      "contract": "Lepingud",
+
+      "my_bids": {
+        "make_offer": "Tee pakkumine",
+
+        "make_request": "Tee pakkumissoov",
+
+        "see_listings": "Vaata kataloog"
+      },
+
+      "my_request": {
+        "accepted": "Õnnestus",
+
+        "declined": "Ebaõnnestus",
+
+        "expired": "Aegunud"
+      }
+    },
+    "marketplace": {
+      "feeds": {
+        "cost/m2": "cost/m2",
+
+        "PCS": "tk",
+
+        "Fixed": "Fikseeritud hind",
+
+        "budget": "Eelarve ",
+
+        "hourly": "Tunnikohane",
+
+        "all_r": " Kõik regioonid",
+
+        "pcs": "TK",
+
+        "Offer": "Pakkumine",
+
+        "cost": "Hind",
+
+        "Request": "Taotlus",
+
+        "Material": "Materjal",
+
+        "Work": "Töö",
+
+        "Valige": "Valige",
+
+        "choose_area": "Valige regioon",
+
+        "Work_included": "Töö sisaldub hinda",
+
+        "Material_included": "Materjalid sisalduvad hinda",
+
+        "job_type": "Valige",
+
+        "Job_Feeds": "Otsi kuulutused",
+
+        "Select": "--Valige--",
+
+        "title": "Otsi kuulutused",
+
+        "title1": "Otsi",
+
+        "No_jobs_found": "Töid/Tükitööd ei leitud",
+
+        "Upload": "Lisa...",
+
+        "applied": "Pakkumine saadetud",
+
+        "Search": "Otsi",
+
+        "qnt": "tk.",
+
+        "Time_left": "Aega jäänud",
+
+        "product": "Toode",
+
+        "product_category": "Toote kategooria",
+
+        "state": "Piirkond",
+
+        "city": "Valige linn",
+
+        "offer": "Pakkumine",
+
+        "request": "Pakkumissoov",
+
+        "material": "Pakkumine sisaldab materjalid",
+
+        "work": "Töö sisaldub",
+
+        "choose_type": "Valige tüüp",
+
+        "list_details": {
+          "success_mess": "Staatuse värskendamine õnnestus!",
+
+          "All_regions": "Kõik regioonid",
+
+          "Remove": "Eemalda",
+
+          "Detail": "üksikasjad",
+
+          "per_m2": "Kulu/m2",
+
+          "Hour": "Tund",
+
+          "Offer_workD": "Pakkumine",
+
+          "Request_workD": "Pakkumissoov",
+
+          "Inactive": "Inaktiivne",
+
+          "Active": "Aktiivne",
+
+          "head_work": "Tööpakkumissoovi",
+
+          "head_work0": "Tööpakkumissoov",
+
+          "workoffer": "Tööpakkumissoovi",
+
+          "workoffer0": "Tööpakkumise",
+
+          "Material_offer0": "Materjalipakkumise",
+
+          "Fixed": "Fikseeritud",
+
+          "Hourly": "Tunnikohane",
+
+          "individual": "personaalne",
+
+          "material_offer": "Materjalipakkumise",
+
+          "company": "Ettevõte",
+
+          "consumer": "Tarbija",
+
+          "save_bid": "Salvesta pakkumine",
+
+          "Material_offer": "Materjalipakkumissoovi lisainfo",
+
+          "Material": "Materjal",
+
+          "no_bid": "Ei veel pakkumisi",
+
+          "akivoi": " Kuulutuse staatus",
+
+          "Offer": "pakkumine",
+
+          "Request": "Pakkumissoov",
+
+          "work_start": "Valige",
+
+          "success_cret": "Uus pakkumine loodud!",
+
+          "leave_page": "Kas olete kindel, et soovite minna teisele lehele?",
+
+          "success1": "Uus pakkumine loodud!",
+
+          "success2": "Uus töövahe loodud!",
+
+          "success_2": "Uue työvahe lisamine õnnestus!",
+
+          "success": "Uue ostupakkumise loomine õnnestus!",
+
+          "Material_Request": "Pakkumissoov Materjal",
+
+          "Material_Offer": "Materjalipakkumine",
+
+          "Work_Offer": "Tööpakkumine",
+
+          "availablity": "Saadavus",
+
+          "Material_Offer1": "Materjalipakkumise lisainfo",
+
+          "Work_Request": "Tööpakkumissoov ",
+
+          "already": "Pakkumine saadetud",
+
+          "active": "Aktiivne",
+
+          "Accept": "Nõustu",
+
+          "Accepted": "Vastu võetud",
+
+          "Decline": "Keeldu",
+
+          "In_active": "Ei aktiivne",
+
+          "Not_Include": "Ei sisaldu",
+
+          "bids_on": "Pakkumised",
+
+          "pcs": "tk",
+
+          "Qnt": "Kogus",
+
+          "Year": "Aasta",
+
+          "Month": "Kuu",
+
+          "volume_need": "Kogus",
+
+          "budget": "Eelarve",
+
+          "Months": "Kuud",
+
+          "Withdraw": "Keeldu",
+
+          "all_already": "Oled juba teinud pakkumise",
+
+          "Cannot_bid": "Ei saa pakkuda oma tükitööd",
+
+          "Upload_status": "Lisa staatus",
+
+          "Submit_your_bid": "Jäta oma pakkumine",
+
+          "Save_this_job": "Salvesta tükitöö ",
+
+          "attachment": "Manused",
+
+          "ext": " Max 2 mb pdf, doc, jpeg, png, jpg, gif, svg",
+
+          "applied": "Taodeldud",
+
+          "Category": "Kategooria",
+
+          "Select": "Valige",
+
+          "Days": "Päeva",
+
+          "details": "Lisainfo",
+
+          "location": "Asukoht",
+
+          "warranty": "Garantii",
+
+          "delivery": "Tarne",
+
+          "delivery_charges": "Tarnekulud",
+
+          "work": "Töö",
+
+          "rate": "Hind",
+
+          "included": "Sisaldab",
+
+          "expires_in": "Aegub",
+
+          "your_quote": "Sinu pakkumised",
+
+          "quantity": "Kogus",
+
+          "shipping_from": "Tarnekoht",
+
+          "delivery_type": "Tarneviis",
+
+          "message": "Sõnum",
+
+          "image": "Pildid",
+
+          "i_agree_all": "Nõustun",
+
+          "work_starts": "Töö alustamine",
+
+          "work_ends": "Töö lõpetamine",
+
+          "terms_of_service": "Kasutustingimused"
+        }
+      },
+      "saved_jobs": {
+        "No_found": "Ei lemmikuid",
+
+        "Saved": "Salvestatud",
+
+        "No": "Ei",
+
+        "Expired": "Kehtivus aegunud",
+
+        "Budget": "Eelarve",
+
+        "€/pcs": "€/tk",
+
+        "Posted": "Lisatud",
+
+        "qnt": "tk.",
+
+        "Time_left": "Aega jäänud",
+
+        "Upload": "Lisa...",
+
+        "Details": "Lisainfo",
+
+        "saved_job": "Lemmikud",
+
+        "tender_type_request": "Pakkumissoov",
+        "tender_type_offer": "Pakkumine",
+        "tender_category_type_work": "Töö",
+        "tender_category_type_material": "Materjal",
+        "work_included": "Töö sisaldub",
+        "material_included": "Materjal sisaldub"
+      },
+      "material": {
+        "create_material_list": {
+          "request": {
+            "fill_req": "Täida kohustuslikud kohad",
+
+            "Date_f": "Kuupäevakoht on kohustuslik",
+
+            "preview": "Eelvaata soovi",
+
+            "state_r": " Piirkond kohustuslik",
+
+            "pre": "Eelvaata pakkumist ",
+
+            "city_p": "Valige",
+
+            "state_word": "Piirkond",
+
+            "work": "Töö sisaldub",
+
+            "Category": "Kategooria kohustuslik",
+
+            "type_list": "Kuulutustüüp",
+
+            "request": "Taotlus",
+
+            "title": "Loo materjali kuulutus",
+
+            "sub_title": "Kaikki kohad kohustuslikud*",
+
+            "input_title": "Pealkiri",
+
+            "category": "Kategooria",
+
+            "Select": "Valige",
+
+            "Kg": "Kg",
+
+            "M2": "M2",
+
+            "Liter": "Liitrit",
+
+            "Pcs": "Tk",
+
+            "ext": "jpeg, png, jpg, gif, svg",
+
+            "Upload_status": "Laadimise olek",
+
+            "Upload": "Lisa",
+
+            "Remove": "Eemalda",
+
+            "Submit": "Salvesta",
+
+            "vol_need": "Kogus",
+
+            "unit": "Üksus",
+
+            "city": "Linn",
+
+            "cost/m2": "Kulu/m2",
+
+            "Fixed": "Fikseeritud",
+
+            "Hourly": "Tunnine",
+
+            "budget": "Eelarve",
+
+            "pincode": "Postiindeks",
+
+            "post_expires_in": "Kuulutus kehtib",
+
+            "post_expires_in1": "Kuulutus kehtib",
+
+            "description": "Kirjeldus",
+
+            "description1": "maksutingimuse kirjeldus",
+
+            "main": "Põhipilt",
+
+            "attachment": "Manused",
+
+            "attachment_text": "pdf, doc, jpg, png",
+
+            "product_images": "Tootepildid",
+
+            "product_images_text": "Saad lisada mitu manust"
+          },
+
+          "offer": {
+            "No_Options_Available": "Valikuid pole saadaval",
+
+            "Select": "--Valige--",
+
+            "Included": "Sisaldab",
+
+            "Not_included": "Ei sisalda",
+
+            "cost_unit": "Hind/Üksus",
+
+            "quantity": "Kogus",
+
+            "delivery_type": "Kohaletoimitamise viis",
+
+            "cost": "Kulud",
+
+            "offer": "Pakkumine",
+
+            "road": "Maantee",
+
+            "flight": "Lennuk",
+
+            "ship": "Laev",
+
+            "warranty": "Garantii"
+          }
+        },
+        "edit_material_list": {
+          "request": {
+            "fill_req": "Täida kohustuslikud kohad",
+
+            "Date_f": "Kuupäevakoht on kohustuslik",
+
+            "preview": "Eelvaata soovi",
+
+            "state_r": " Piirkond kohustuslik",
+
+            "pre": "Eelvaata pakkumist ",
+
+            "city_p": "Valige",
+
+            "state_word": "Piirkond",
+
+            "work": "Töö sisaldub",
+
+            "Category": "Kategooria kohustuslik",
+
+            "type_list": "Kuulutustüüp",
+
+            "request": "Taotlus",
+
+            "title": "Loo materjali kuulutus",
+
+            "sub_title": "Kaikki kohad kohustuslikud*",
+
+            "input_title": "Pealkiri",
+
+            "category": "Kategooria",
+
+            "Select": "Valige",
+
+            "Kg": "Kg",
+
+            "M2": "M2",
+
+            "Liter": "Liitrit",
+
+            "Pcs": "Tk",
+
+            "ext": "jpeg, png, jpg, gif, svg",
+
+            "Upload_status": "Laadimise olek",
+
+            "Upload": "Lisa",
+
+            "Remove": "Eemalda",
+
+            "Submit": "Salvesta",
+
+            "vol_need": "Kogus",
+
+            "unit": "Üksus",
+
+            "city": "Linn",
+
+            "cost/m2": "Kulu/m2",
+
+            "Fixed": "Fikseeritud",
+
+            "Hourly": "Tunnine",
+
+            "budget": "Eelarve",
+
+            "pincode": "Postiindeks",
+
+            "post_expires_in": "Kuulutus kehtib",
+
+            "post_expires_in1": "Kuulutus kehtib",
+
+            "description": "Kirjeldus",
+
+            "description1": "maksutingimuse kirjeldus",
+
+            "main": "Põhipilt",
+
+            "attachment": "Manused",
+
+            "attachment_text": "pdf, doc, jpg, png",
+
+            "product_images": "Tootepildid",
+
+            "product_images_text": "Saad lisada mitu manust"
+          },
+
+          "offer": {
+            "No_Options_Available": "Valikuid pole saadaval",
+
+            "Select": "--Valige--",
+
+            "Included": "Sisaldab",
+
+            "Not_included": "Ei sisalda",
+
+            "cost_unit": "Hind/Üksus",
+
+            "quantity": "Kogus",
+
+            "delivery_type": "Kohaletoimitamise viis",
+
+            "cost": "Kulud",
+
+            "offer": "Pakkumine",
+
+            "road": "Maantee",
+
+            "flight": "Lennuk",
+
+            "ship": "Laev",
+
+            "warranty": "Garantii"
+          }
+        },
+        "manage_material": {
+          "listing": {
+            "Self": "Minä",
+
+            "Employee": "Töötaja",
+
+            "Expired": "Aegunud",
+
+            "Posted": "Avaldatud",
+
+            "offer": "Pakkumine",
+
+            "request": "Pakkumissoov",
+
+            "Created_by": "Loodud",
+
+            "Select": "--Valige--",
+
+            "material_listings": "Materjali kuulutud",
+
+            "my_listings": "Kuulutused",
+
+            "my_listings1": "Tegijad",
+
+            "Details": "Lisainfo",
+
+            "prop_listings": "Pakkumised",
+
+            "Draft": "Mustandid ",
+
+            "prop_company": "Firma Nimi",
+
+            "prop_company_Sähköposti": "E-post",
+
+            "create": "Loo",
+
+            "ref": "Viide",
+
+            "type": "Tüüp",
+
+            "start_date": "Alguskuupäev",
+
+            "end_date": "Lõppemiskuupäev",
+
+            "current_bid": "Praegune pakkumine",
+
+            "view": "Vaata",
+
+            "title": "Pealkiri"
+          }
+        }
+      },
+      "work": {
+        "create_work_list": {
+          "Remove": "Eemalda",
+
+          "cost/m2": "Kulu/m2",
+
+          "Fixed": "Fikseeritud",
+
+          "Hourly": "Tunnikohane",
+
+          "Submit": "Saada",
+
+          "Submit1": "Salvesta",
+
+          "Select": "—Valige--",
+
+          "file_ext": "fail ext",
+
+          "Upload": "Lisa",
+
+          "Upload_status": "Laadimise seis",
+
+          "title": "Loo uus tükitöö- / töökuulutus",
+
+          "budget": "Eelarve",
+
+          "rate": "Hind",
+
+          "work_start": "Töö alustamine",
+
+          "work_end": "Töö lõpetamine",
+
+          "availablity": "Saadavus",
+
+          "work_listings": "Töökuulutused"
+        }
+      },
+      "edit_work_list": {
+        "Remove": "Eemalda",
+
+        "cost/m2": "Kulu/m2",
+
+        "Fixed": "Fikseeritud",
+
+        "Hourly": "Tunnikohane",
+
+        "Submit": "Saada",
+
+        "Submit1": "Salvesta",
+
+        "Select": "—Valige--",
+
+        "file_ext": "fail ext",
+
+        "Upload": "Lisa",
+
+        "Upload_status": "Laadimise seis",
+
+        "title": "Loo uus tükitöö- / töökuulutus",
+
+        "budget": "Eelarve",
+
+        "rate": "Hind",
+
+        "work_start": "Töö alustamine",
+
+        "work_end": "Töö lõpetamine",
+
+        "availablity": "Saadavus",
+
+        "work_listings": "Töökuulutused"
+      },
+      "all_list_details": {
+        "success_mess": "Staatuse värskendamine õnnestus!",
+
+        "All_regions": "Kõik regioonid",
+
+        "Remove": "Eemalda",
+
+        "Detail": "üksikasjad",
+
+        "per_m2": "Kulu/m2",
+
+        "Hour": "Tund",
+
+        "Offer_workD": "Pakkumine",
+
+        "unit": "Üksus",
+
+        "Request_workD": "Pakkumissoov",
+
+        "Inactive": "Inaktiivne",
+
+        "Active": "Aktiivne",
+
+        "head_work": "Tööpakkumissoovi",
+
+        "head_work0": "Tööpakkumissoov",
+
+        "workoffer": "Tööpakkumissoovi",
+
+        "workoffer0": "Tööpakkumise",
+
+        "Material_offer0": "Materjalipakkumise",
+
+        "Fixed": "Fikseeritud",
+
+        "Hourly": "Tunnikohane",
+
+        "individual": "personaalne",
+
+        "material_offer": "Materjalipakkumise",
+
+        "company": "Ettevõte",
+
+        "consumer": "Tarbija",
+
+        "save_bid": "Salvesta pakkumine",
+
+        "Material_offer": "Materjalipakkumissoovi lisainfo",
+
+        "Material": "Materjal",
+
+        "no_bid": "Ei veel pakkumisi",
+
+        "akivoi": " Kuulutuse staatus",
+
+        "Offer": "pakkumine",
+
+        "Request": "Pakkumissoov",
+
+        "work_start": "Valige",
+
+        "success_cret": "Uus pakkumine loodud!",
+
+        "leave_page": "Kas olete kindel, et soovite minna teisele lehele?",
+
+        "success1": "Uus pakkumine loodud!",
+
+        "success2": "Uus töövahe loodud!",
+
+        "success_2": "Uue työvahe lisamine õnnestus!",
+
+        "success": "Uue ostupakkumise loomine õnnestus!",
+
+        "Material_Request": "Pakkumissoov Materjal",
+
+        "Material_Offer": "Materjalipakkumine",
+
+        "Work_Offer": "Tööpakkumine",
+
+        "Material_Offer1": "Materjalipakkumise lisainfo",
+
+        "Work_Request": "Tööpakkumissoov ",
+
+        "already": "Pakkumine saadetud",
+
+        "active": "Aktiivne",
+
+        "Accept": "Nõustu",
+
+        "Accepted": "Vastu võetud",
+
+        "Decline": "Keeldu",
+
+        "In_active": "Ei aktiivne",
+
+        "Not_Include": "Ei sisaldu",
+
+        "bids_on": "Pakkumised",
+
+        "pcs": "tk",
+
+        "Qnt": "Kogus",
+
+        "Year": "Aasta",
+
+        "Month": "Kuu",
+
+        "volume_need": "Kogus",
+
+        "budget": "Eelarve",
+
+        "Months": "Kuud",
+
+        "all_already": "Oled juba teinud pakkumise",
+
+        "Cannot_bid": "Ei saa pakkuda oma tükitööd",
+
+        "Upload_status": "Lisa staatus",
+
+        "Submit_your_bid": "Jäta oma pakkumine",
+
+        "Save_this_job": "Salvesta tükitöö ",
+
+        "ext": " Max 2 mb pdf, doc, jpeg, png, jpg, gif, svg",
+
+        "applied": "Taodeldud",
+
+        "Category": "Kategooria",
+
+        "Select": "Valige",
+
+        "Days": "Päeva",
+
+        "details": "Lisainfo",
+
+        "warranty": "Garantii",
+
+        "delivery": "Tarne",
+
+        "delivery_charges": "Tarnekulud",
+
+        "work": "Töö",
+
+        "rate": "Hind",
+
+        "included": "Sisaldab",
+
+        "expires_in": "Aegub",
+
+        "your_quote": "Sinu pakkumised",
+
+        "quantity": "Kogus",
+
+        "shipping_from": "Tarnekoht",
+
+        "delivery_type": "Tarneviis",
+
+        "message": "Sõnum",
+
+        "image": "Pildid",
+
+        "i_agree_all": "Nõustun",
+
+        "terms_of_service": "Kasutustingimused",
+
+        "material": "Materjal",
+
+        "full_name": "Nimi",
+
+        "Quote": "Hind",
+
+        "Warrenty_Type": "Garantii tüüp",
+
+        "Warrenty": "Garantii",
+
+        "State_name": "Piirkond",
+
+        "Description": "Sõnum",
+
+        "tender_type_offer": "Pakkumine",
+
+        "tender_type_request": "Soov",
+
+        "Proposal_Requested": "Pakkumine küsitud",
+
+        "Bid_details": "Pakkumise lisainfo",
+
+        "Posted_on": "Avaldatud",
+
+        "Volume_Need": "Volyymi vajadus",
+
+        "location": "Asukoht",
+
+        "Work": "Töö",
+
+        "Expires_in": "Aegub",
+
+        "Your_quote": "Sinu pakkumised",
+
+        "Quantity": "Kogus",
+
+        "Shipping_from": "Saatmispunkt",
+
+        "Delivery_type": "Transpordikulud",
+
+        "Message:": "Sõnum:",
+
+        "Withdraw": "Tagasi",
+
+        "Revise_notes": "Muuda memot",
+
+        "Submit_Proposal": "Jätä pakkumine",
+
+        "Upload": "Lisa..."
+      }
+    },
+    "my_contracts": {
+      "search": {
+        "Select": "valige",
+
+        "Work": "Töö",
+
+        "Offer": "Pakkumised",
+
+        "Request": "Pakkumissoovid",
+
+        "Material": "Materjalid",
+
+        "type1": "Tööd ja materjalid",
+
+        "type2": "Pakkumised ja pakkumissoovid",
+
+        "sort_by": "Sorteeri",
+
+        "closed_contract": "Sisalda vanad lepingud "
+      },
+
+      "Proposal_Requested": "Pakkumine küsitud",
+
+      "Material/Work": "Materjal/Töö",
+
+      "Pending": "Ootel",
+
+      "Completed": "Valmis",
+
+      "Started": "Alustatud",
+
+      "My_Bids": "Omad pakkumised",
+
+      "Complete": "Valmis",
+
+      "Cancel": "Tühistatud",
+
+      "Ongoing": "Käimasolev",
+
+      "Sent": "saadetud",
+
+      "Upload": "Lae üles fail...",
+
+      "Request/Offer": "Soov/Pakkumine",
+
+      "title": "Minu lepingud",
+
+      "submit_proposal": "Jäta pakkumine",
+
+      "request_proposal": "Küsi pakkumist",
+
+      "cancel": "Tühista"
+    },
+
+    "my_bid": {
+      "material": "Materjal",
+
+      "work": "Töö",
+
+      "full_name": "Nimi",
+
+      "Quote": "Hind",
+
+      "Warrenty_Type": "Garantii tüüp",
+
+      "Warrenty": "Garantii",
+
+      "State_name": "Piirkond",
+
+      "Description": "Sõnum",
+
+      "tender_type_offer": "Pakkumine",
+
+      "tender_type_request": "Soov",
+
+      "Proposal_Requested": "Pakkumine küsitud",
+
+      "Bid_details": "Pakkumise lisainfo",
+
+      "Posted_on": "Avaldatud",
+
+      "Volume_Need": "Volyymi vajadus",
+
+      "location": "Asukoht",
+
+      "Work": "Töö",
+
+      "Expires_in": "Aegub",
+
+      "Your_quote": "Sinu pakkumised",
+
+      "Quantity": "Kogus",
+
+      "Shipping_from": "Saatmispunkt",
+
+      "Delivery_type": "Transpordikulud",
+
+      "Message:": "Sõnum:",
+
+      "Withdraw": "Tagasi",
+
+      "Submit_Proposal": "Jätä pakkumine",
+
+      "Upload": "Lisa..."
+    },
+
+    "reset": {
+      "Please_try_again": "Proovige uuesti...",
+
+      "Reset_password": "Uus parool",
+
+      "For": "E-postile:",
+
+      "password": "Parool",
+
+      "confirm_password": "Kinnita parool",
+
+      "Reset": "Muuda parooli",
+
+      "six_characters": "Paroolis peab olema vähemalt 6 märki"
+    },
+
+    "my_notif": {
+      "bid_by": "Sinule on pakkumine isikult ",
+
+      "title": "Märkused",
+
+      "Submit_proposal_to": "Saada pakkumine isikule",
+
+      "Proposal_declined_by": "Pakkumise tagasi lükkas"
+    },
+
+    "firtDashboard": {
+      "header": "Tere tulemasta kasutama ProppU-teenust!",
+
+      "second_h": "Tore, et oled siin! ",
+
+      "firstDescription": "ProppU ühistab remontide kõik osapooled. Se tööb kokku töövõtja ja kulutajad, töö ja töötajad, tellijad ja materjalid ja suured ja väiksed ettevõtted. ProppU teeb remontidest sujuvad ja selged tegijale ja kliendile.",
+
+      "secondDescription": "Majanduskoht on pakkumise ja nõudluse kohtumispaik ostjale ja müüjatele",
+
+      "third_des": "Äri-poolel ettevõte võib kontrollida tükitöid digitaalsete töövahenditega ja hoida tükitöö halduse lihtsalt ühest kohast.",
+
+      "quicklinks": {
+        "marketplace": {
+          "title": "Majanduskoht – lisa töid, tegijaid tai materjale",
+
+          "userAccount": "Kontrolli kasutajat",
+
+          "browseNotifications": "Sirvi lahtiseid kuulutusi",
+
+          "newJobOpening": "Loo uus töökuulutus",
+
+          "newMaterialNotification": "Loo uus materjalikuulutus",
+
+          "viewOffers": "Vaata sinule saabuneid pakkumisi"
+        },
+
+        "business": {
+          "title": "Äri töövahendid - kliendid, ressurssid, ja dokumendid ühes kohas",
+
+          "newOffer": "Uus pakkumine",
+
+          "newContract": "Uus leping",
+
+          "newInvoice": "Uus arve",
+
+          "newReport": "Uus aruanne",
+
+          "newCustomer": "Uus Klient",
+
+          "newResource": "Lisa ressurss"
+        },
+
+        "projectTools": {
+          "title": "Projektitöövahend - planeeri ja kontrolli töid ja ressursse",
+
+          "addResources": "Lisa ressursse, töötajaid ja koostööpartnereid",
+
+          "addCustomer": "Lisa klient sinu kasutajale",
+
+          "newProject": "Planeeri uus projekt",
+
+          "newQuicktask": "Planeeri uus ühekorraline ülesanne",
+
+          "communicate": "Suhtle ja dokumenteeri projektidega",
+
+          "followProjects": "Kontrolli projekti edenemist",
+
+          "seeAllProjects": "Vaata projektipanka"
+        },
+
+        "intro": {
+          "title": "Tutvu paremini - vaata video",
+
+          "marketplace": "Majanduskoht",
+
+          "business": "Äri tööriistad",
+
+          "projectTools": "Projekti töövahendid"
+        },
+
+        "otherServices": {
+          "title": "Muud teenused",
+
+          "ownWebPages": "Hangi endale netileht ja ühenda oma kasutajaga, alates 100e",
+
+          "commonInvestment": "Osale ühishankesse - säästa tuhandeid materjaalides",
+
+          "bookKeeping": "Kirjapidamine, kindlustused, reklaam samast paigast, anna meil tõhustada äritoiminguid."
+        },
+
+        "contact": {
+          "title": "Võta ühendust",
+
+          "sendEmail": "Saada e-posti",
+
+          "call": "Helista"
+        }
+      }
+    },
+
+    "header": {
+      "Dashboard": "Tere tulemasta",
+
+      "my_bussiness": "Minu äri",
+
+      "Proposal_declined": "Pakkumise tagasi lükkas",
+
+      "FI": "FI",
+
+      "EN": "EN",
+      "EST": "EST",
+
+      "Submit_proposal": "Saada pakkumine isikule",
+
+      "marketplace": "Majanduskoht",
+
+      "view_all": "Vaata kõik",
+
+      "work_list": "Töönimekirjad"
+    },
+
+    "mybid": {
+      "Today_bid": "Tänane pakkumine",
+
+      "Material": "Materjalid",
+
+      "work": "Tööd/Töövõtud",
+
+      "Request": "pakkumissoovi",
+
+      "Offer": "Pakkumine",
+
+      "myBid": "Minu Tehingud",
+
+      "data_not": "Andmeid ei leidu",
+
+      "mybid": "Omad pakkumised",
+
+      "proposal_send": "Ettepanek Saada",
+
+      "my_bids": "Pakkumised",
+
+      "Draft": "Mustand",
+
+      "days": "päeva",
+
+      "Ongoing": "Käimas",
+
+      "Accepted": "Vastu võetud",
+
+      "Send": "Saada",
+
+      "Declined": "Tagasi lükatud",
+
+      "Cancel": "Tühista",
+
+      "Pending": " Ootel ",
+
+      "Withdraw": "Tagasi",
+
+      "Upload": "Lisa...",
+
+      "All": "Kõik",
+
+      "Submit_Proposal": "Küsi pakkumist",
+
+      "Proposal_Requested": "Pakkumine küsitud",
+
+      "Active": "Aktiivine",
+
+      "pending": "Oota",
+
+      "Expired": "Aegunud",
+
+      "Hired": "Palkatud",
+
+      "proposal_Cancel": "Tühistatud"
+    },
+
+    "sidebar": {
+      "create_listing1": "Loo uus",
+
+      "see_listing1": "minu kuulutused",
+
+      "pro_desk": "Start",
+
+      "feeds": "Kuulutused",
+
+      "create_listing": "Halda",
+
+      "see_listing": "Minu kuulutused"
+    },
+
+    "account": {
+      "username1": "Kasutajatunnus",
+
+      "name": "Nimi",
+
+      "email_unq": "E-post on juba kasutusel",
+
+      "username": "Kasutajatunnus",
+
+      "work_quarantees": "Töö tagatised",
+
+      "Email_verification": "Kinnitus e-posti",
+
+      "companyname": "Firma nimi",
+
+      "insurance": "Kindlustused",
+
+      "termsOfpayment": "Maksutingimus",
+
+      "Type": "Tüüp ",
+
+      "materials_quarantees": "Materjalitagatised",
+
+      "guarantees_for_work": "Töö tagatised",
+
+      "Role": "Roll",
+
+      "Resource": "Alltöövõtja",
+
+      "Employee": "Töötaja",
+
+      "old_password1": "Kinnita parool",
+
+      "con_password": "Kinnita parool",
+
+      "con_pass_err": "Kinnita-parool kohustuslik",
+
+      "Create": "Loo",
+
+      "Email_al": "E-post on juba kasutusel",
+
+      "Update": "Uuenda",
+
+      "Serial_No": "Seerianumber",
+
+      "Enter_new": "Uus parool",
+
+      "Enter_current": "Praegune parool",
+
+      "remove": "Eemalda",
+
+      "Upload": "Lisa...",
+
+      "Sub_Contractor": " Alltöövõtja",
+
+      "Supplier": "Tarnija",
+
+      "Customer_ID": "Registrikood",
+
+      "Select": "Valige",
+
+      "FI": "FI",
+
+      "agreement_insurances": "Kindlustused",
+
+      "panelty_terms": "Lepingutrahv",
+
+      "EN": "EN",
+
+      "Submit": "Saada",
+
+      "Add_Customer": "Lisa klient",
+
+      "Save_changes": "Salvesta muudatused",
+
+      "Customer_Website": "Veebileht",
+
+      "company_logo": "Lisa oma firma logo",
+
+      "company_logo1": "Lisa pilt",
+
+      "Update_Sähköposti": "Värskenda E-posti aadress",
+
+      "title": "Kasutaja andmed",
+
+      "first_name": "Nimi",
+
+      "last_name": "Perekonnanimi",
+
+      "address": "Aadress",
+
+      "zip": "Postiindeks",
+
+      "email": "E-post",
+
+      "sub_contractors": "Alltöövõtjad",
+
+      "phone": "Telefon",
+
+      "material_supplier": "Materjalitarnijad",
+
+      "Sähköposti": "E-post",
+
+      "company": "Ettevõte",
+
+      "type": "Tüüp",
+
+      "status": "Staatus",
+
+      "payment_details": "Makseteave, Konto number, Muudatuste salvestamine",
+
+      "old_password": "Kindlusta parool",
+
+      "Register": "Registreeru",
+
+      "password": "Parool",
+
+      "language": "Vaikekeel",
+
+      "my_account": "Minu kasutaja",
+
+      "permission": "Juurdepääsuõigused",
+
+      "logout": "Logi välja",
+
+      "pwd": "Värskenda parool",
+
+      "Sähköposti ": "E-posti kinnitus",
+
+      "proposal_guarantee": "Ettepaneku garantiid",
+
+      "agreement_guarantee": "Lepingu garantiid"
+    },
+
+    "b_sidebar": {
+      "cus": {
+        "customers1": "Lisa uus klient",
+
+        "customers_client": "Klient",
+
+        "customers": "Kliendid",
+
+        "create_customers": "Muuda",
+
+        "create_customers_a": "Loo uus",
+
+        "Manage": "Minu kuulutused",
+
+        "agrement_s": "Lepinguregister",
+
+        "Customer_register": "Kliendiregister",
+
+        "Manage2": "Arveregister",
+
+        "Manage3": "Tegijaregister",
+
+        "Manage4": "Töövaheregister"
+      },
+
+      "proposal": {
+        "proposal": "Ettepanek",
+
+        "template": "Pakkumismudelid",
+
+        "listing": "Pakkumiste kokkuvõte",
+
+        "create_propsoal": "Loo uus",
+
+        "create_manage": "Pakkumisregister"
+      },
+
+      "agreement": {
+        "Agreement": "Leping",
+
+        "agreement": "Leping",
+
+        "Proposal": "Ettepanek",
+
+        "revised": "kommenteeritud",
+
+        "Send": "Saada",
+
+        "declined": "keeldus",
+
+        "accepted": "vastu võetud",
+
+        "message": "Sinu sõnumid",
+
+        "View_message": "Kirjuta sõnum"
+      },
+
+      "project": {
+        "project": "Projekt"
+      },
+
+      "invoice": {
+        "invoice": "Arve",
+
+        "Companyid:": "Registrikood:",
+
+        "create_invoice": "Tee arve",
+
+        "invoice_listing": "Arvete kokkuvõte"
+      },
+
+      "messaging": {
+        "messaging": "Suhtlemine"
+      },
+
+      "resources": {
+        "resources": "Ressurssid",
+
+        "create_resources": "Loo uus tegija",
+
+        "resource_listing": "Ressursside kokkuvõte"
+      },
+
+      "phase": {
+        "phases": "Töövahe",
+
+        "create": "Loo töövahe",
+
+        "listing": "Töövahete kokkuvõte"
+      },
+
+      "permission": {
+        "permission": "Luba",
+
+        "create": "Loo uus luba",
+
+        "listing": "Lubaloend"
+      },
+
+      "roles": {
+        "roles": "Rollid",
+
+        "create": "Loo rolle",
+
+        "listing": "Rolliloend",
+
+        "created_at": "Loodud kell"
+      },
+
+      "create_report": {
+        "report": "Loo Aruanne",
+
+        "create": "Aruande andmed",
+
+        "listing": "Rollide nimekiri"
+      }
+    },
+
+    "mycustomer": {
+      "Resource": "Ressurss",
+
+      "Employee": "Töötaja",
+
+      "succesD": "Eemaldatud!",
+
+      "sucessDM": "Klient eemaldatud",
+
+      "Business": "Ettevõte",
+
+      "Consumer_customer": "Tarbija (klient)",
+
+      "Active": "Aktiivne",
+
+      "Inactive": "Ebaaktiivne",
+
+      "Submit": "Salvesta ",
+
+      "Update": "Uuenda",
+
+      "form_submit": "Kliendi lisamine õnnestus",
+
+      "payment_t": "Makse",
+
+      "days_c": "päeva",
+
+      "consumer_c": "Eraklient",
+
+      "busines": "Äriklient",
+
+      "success": "Uus klient lisatud",
+
+      "success1": "uue kliendi lisamine õnnestus",
+
+      "Select": "Vali",
+
+      "Create": "Loo uus ",
+
+      "Sub_Contractor": " Alltöövõtja",
+
+      "My_listings": "Minu kliendid",
+
+      "Client": "Klient",
+
+      "Supplier": "Tarnija",
+
+      "Course_Deleted": " Kurss eemaldatud",
+
+      "Details": "Muuda",
+
+      "Are_you": "Soovite kindlasti kliendi eemaldada?",
+
+      "cancel": "Tühista",
+
+      "delete": "Jah, eemalda klient",
+
+      "You_will": "Kliendi taastamine ei ole pärast seda enam võimalik!",
+
+      "Delete": "Eemalda",
+
+      "heading": "Minu äri",
+
+      "heading_2": "Klientide haldamine",
+
+      "resource_company": "Tegija/Ettevõte",
+
+      "resource_type": "Valige tegija / firma tüüp ressurssi tüüp",
+
+      "create": "Lisa nimekirja"
+    },
+
+    "project_planning": {
+      "Select": "sihtkoht",
+
+      "Delete": "Eemalda",
+
+      "heading": "Leping mudel",
+
+      "area": "Valige regioon",
+
+      "phase": "Lisa töö",
+
+      "new_task": "Pakkumine arvutus",
+
+      "template": "Mall",
+
+      "upd_curr": "Värskenda projekti",
+
+      "save_curr": "Salvesta",
+
+      "save_temp": "Ava mall",
+
+      "items": "Kohad",
+
+      "duration": "Kestus (h)",
+
+      "cost_hr": "Kulu/h",
+
+      "total_cost": "Kulud kokku",
+
+      "est_time": "Ligikaudne sooritusaeg",
+
+      "sub_total": "Kokku",
+
+      "tax": "Maksed",
+
+      "profit": "bilanss",
+
+      "total": "Kokku"
+    },
+
+    "myproposal": {
+      "alreday_have": "on juba lisatud.",
+
+      "emailmessage": "ei ole sobiv e-posti aadress.",
+
+      "No_record": "Andmeid ei leidu",
+
+      "work_is_req": "Tööd on vajatud",
+
+      "success": "Uus pakkumine loodud!",
+
+      "success1": "Uue detailse pakkumise loomine õnnestus!",
+
+      "name_unq": "Kohustuslik koht",
+
+      "place_emid": "Saada pakkumine mitmele isikule",
+
+      "place_email": "Anna kliendi e-post või nimi",
+
+      "Companyid:": "Firma Registrikood:",
+
+      "Company_id": "Firma Registrikood:",
+
+      "Date": "Kuupäev",
+
+      "Draft": "Mustand",
+
+      "Accepted": "Vastu võetud",
+
+      "Revision": "Ootel",
+
+      "Declined": "Tagasi lükatud",
+
+      "Preview_Agreement": "Eelvaata leping",
+
+      "View_notes": "Loe memo",
+
+      "Revise_notes": "Muuda memot",
+
+      "Edit_Proposal": "Muuda ettepanekut",
+
+      "Custom_message": "Personaalne sõnum kliendi ",
+
+      "Update_Proposal": "Värskenda ettepanekut",
+
+      "Submit_agreement": "Saada leping",
+
+      "Accept": "Nõustu",
+
+      "Revise": "Muuda",
+
+      "As_per_inovice": "arvepõhjane",
+
+      "Decline": "Keeldu",
+
+      "Upload_attachments": "Lisa manuseid",
+
+      "Total_cost": "Kulud kokku",
+
+      "Payment_aftre_work": "Arve pärast töö tegemist",
+
+      "Payment_aftre_work1": "Arve tund –tunnilt",
+
+      "Pay_hourly": "Maksmine tund-tunnilt ",
+
+      "Payment_aftre": "Maksmine pärast tarnet",
+
+      "Create_Proposal": "Loo pakkumine",
+
+      "Payment_aftre_project_done": "Maksmine pärast projekti valmistumist",
+
+      "Save_as_a_draft": "Salvesta mustandina",
+
+      "Edit": "Muuda",
+
+      "Update_as_a_draft": "Muuda mustandina",
+
+      "TotalC": "Pakkumise kulud kokku",
+
+      "Upload": "Lisa...",
+
+      "Preview_Proposal": "Eelvaata pakkumist",
+
+      "Send": "Oota",
+
+      "Send1": "Oota",
+
+      "e": "nt",
+
+      "Select": "Valige",
+
+      "Select_proposal_agreement": "Vali pakkumine",
+
+      "Client’s": " Kliendi eelarve: €",
+
+      "Add_New": "Lisa uus",
+
+      "Submit": "Saada",
+
+      "Savedraft": "Salvesta mustandina",
+
+      "draft": "Muuda mustandina",
+
+      "name": "Pealkiri",
+
+      "scratch": "Loo uus",
+
+      "prop_request": "Loo pakkumise põhjal",
+
+      "prop_upd": "Värskenda pakkumise mustand",
+
+      "cre_prop": "Loo Pakkumine",
+
+      "buss_info": "Pakkumise saatja firma andmeid ",
+
+      "cus_info": "Otsi klient",
+
+      "mail_multi": "Lisa uus klient",
+
+      "eg": "Erista e-postit…;",
+
+      "req_id": "Pakkumise number",
+
+      "date": "Pakkumise tegemise päev (tuleb automaatselt)",
+
+      "due_date": "Arve tähtaeg",
+
+      "proposal_summary": "Pakkumise kokkuvõte",
+
+      "work_total": "Töö kokku",
+
+      "material_total": "Materjal kokku",
+
+      "mat_pay": "Materjalide maksetingimused",
+
+      "work_pay": "Töö makstingimused",
+
+      "project_plan": "Projektiplaan",
+
+      "work_cost": "Arvuta ja lisa töö",
+
+      "mat_cost": "Arvuta ja lisa materjal",
+
+      "proposal_details": "Pakkumise lisainfo",
+
+      "guarantees_for_work": "Töö tagatised",
+
+      "insurance": "Kindlustused",
+
+      "prop_req_id": "Pakkumise Nimi",
+
+      "message": "Sõnum",
+
+      "prop_name": "Pakkumise pealkiri",
+
+      "agree_name": "Lepingu pealkiri",
+
+      "Message": "PDF",
+
+      "action": "Toimingud"
+    },
+
+    "myagreement": {
+      "submit1": "Salvesta",
+
+      "delay_term": "Näita hilinemistingimused",
+
+      "e_eg": "Eralda e-postit..;",
+
+      "email_id_c": "Kliendi nimi või e-post",
+
+      "email_id": "E-post",
+
+      "SelectPA": "Vali pakkumine/ leping",
+
+      "EUR": "EUR",
+
+      "Update_Agreement": "Värskenda leping",
+
+      "View_notes": "Loe memo",
+
+      "hr": "/hr",
+
+      "Accept": "Nõustu",
+
+      "Revise_notes": "Muuda memot",
+
+      "Decline": "Keeldu",
+
+      "Edit": "Muuda",
+
+      "Send": "Saada",
+
+      "Revise": "Muuda",
+
+      "Submit": "Saada",
+
+      "Preview_Agreement": "Eelvaata leping",
+
+      "up_attachments": "Lisa manuseid",
+
+      "Update_as_a_draft": "Värskenda mustandina",
+
+      "Save_as_a_draft": "Salvesta mustandina",
+
+      "Custom": "Personaalne",
+
+      "Not_included": "Ei sisaldatud",
+
+      "included": "Sisaldatud",
+
+      "Pay_hourly": "Tasu tunnkohasesti",
+
+      "PaymentA": "Makse pärast töö valmistumist",
+
+      "inovice": "Arvepõhjane",
+
+      "Custom_message": "Personaalne sõnum",
+
+      "delivery": "Makse pärast tarnet",
+
+      "Select": "Valige",
+
+      "project_done": "Makse pärast projekti valmistumist",
+
+      "SelectP&A": "Värskenda lepingut",
+
+      "Create_Agreement": "Loo Leping",
+
+      "Save_changes": "Salvesta muudatused",
+
+      "Email_verification": "Kinnitus e-posti",
+
+      "Successfully_Updated": "Värskendamine õnnestus!",
+
+      "Translation_successful": "Tõlge õnnestus",
+
+      "Marketplace": "Majanduskoht",
+
+      "agr_upd": "Värskenda lepingumustand",
+
+      "cre_prop": "Loo leping",
+
+      "fixed": " Tükitöö ",
+
+      "hourly": "Tunnikohane",
+
+      "payment_terms": "Maksegraafik",
+
+      "how_paid": "Kuidas soovite arve saata?",
+
+      "by_mile": "Edenemise järgi",
+
+      "by_proj": "Pärast sooritust",
+
+      "mile_text": "Arvelda edenemise järgi väiksemate osadena",
+
+      "mile_que": "Mimes osas soovid arveldada?",
+
+      "add_mile": "Lisa arveldamise etapp",
+
+      "total_proj": "Summa kokku projektile",
+
+      "total_proj_txt": "Kogu summa sisaldab kõik projekti kulud ja klient näeb hinna",
+
+      "flip_fee": "Teenuse tasu.",
+
+      "chk_terms": "Vaata kasutustingimused ",
+
+      "chk_terms_txt": "Lepingupõhjane teenimine",
+
+      "chk_terms_txt_terms": "Tingimused.",
+
+      "more_terms": "Sinu arveldamine pärast teenuse kasutuskulu.",
+
+      "hr_rate": "Tunnieelarve",
+
+      "proj_text": "Arvelda alles, kui kõik töö on tehtud",
+
+      "agreement_terms": "Lepingutingimused",
+
+      "transportation_payment_terms": "Veotingimused",
+
+      "client_resposibilities": "Kliendi vastutus lepingus",
+
+      "contractor_resposibilities": "Töövõtja vastutus lepingus",
+
+      "legal_agreement_category": "Lepingu üldtingimused",
+
+      "agreement_general_legal_issues": "Lepingus järgitavad üldised tingimused",
+
+      "agreement_general_legal_issues_Timber": "Ehitustööde lepingutingimused",
+
+      "agreement_general_legal_issues_Electricity": "Elektritööde lepingutingimused",
+
+      "agreement_general_legal_issues_Plumbing": "Torutööde lepingutingimused",
+
+      "materials_quarantees": "Materjalitagatised",
+
+      "work_quarantees": "Töö tagatised",
+
+      "agreement_insurances": "Kindlustused",
+
+      "panelty_terms": "Lepingutrahv",
+
+      "additional_work_prices": "Extratöö hinnakiri",
+
+      "upload_agreement_files": "Lisää yleisiä sopimuspohjia",
+
+      "legal_txt": "Lisää yleisiä sopimusehtoja tai muita tiedostoja tähän sopimukseen liitteeksi",
+
+      "agreement_req_id": "Lepingu tunnus",
+
+      "attachments": "Manused"
+    },
+
+    "invoice": {
+      "myResource": "Omad ressurssid",
+
+      "heading": "Arved",
+
+      "Date": "Arve loomise päev",
+
+      "hrs": "Summa",
+
+      "cost": "Üksuse hind",
+
+      "Upload": "Lisa...",
+
+      "Payment_Paid": "Makse tehtud",
+
+      "Yes": "Jah",
+
+      "NO": "Ei",
+
+      "Pending": "Oota",
+
+      "do_youPay": "Soovid sooritada makse?",
+
+      "update_invoice": "Muuda arvet",
+
+      "Create_Invoice": "Loo uus arve",
+
+      "Add_row": "Lisa rivi",
+
+      "CC": "CC",
+
+      "VAT": "Käibemaks%",
+
+      "Preview": "Eelvaata",
+
+      "Add_New": "Lisa uus",
+
+      "Companyid:": "Firma registrikood:",
+
+      "Company_Logo": "Firma logo",
+
+      "Save_as_Draft": "Salvesta mustandina",
+
+      "Edit": "Muuda",
+
+      "Send": "Saada",
+
+      "Pdf": "PDF",
+
+      "Action": "Toimingud",
+
+      "invoice_title": "Arve pealkiri",
+
+      "Update_Invoice": "Värskenda arve",
+
+      "Selectproject": "Valige projekt / arve",
+
+      "Select": "Valige",
+
+      "Select_Agreement/Invoice": "Valige leping / arve",
+
+      "scratch": "Loo uus",
+
+      "prop_request": "Loo projektile",
+
+      "invoic_upd": "Värskenda arve mustand",
+
+      "invoice": "Arve",
+
+      "draft": "Mustand",
+
+      "create_invoice": "Loo arve",
+
+      "invoice_date": "Arve kuupäev",
+
+      "invoice_number": "Arve number",
+
+      "reference": "Viide",
+
+      "account_number": "Arve number",
+
+      "delay_interest": "Viivitusintress",
+
+      "bill_to": "Arveldatav",
+
+      "service": "Teenus",
+
+      "account": "Konto",
+
+      "client": "Klient",
+
+      "name": "Nimi",
+
+      "currency": "Valuuta",
+
+      "work_mat": "Töö/materjal",
+
+      "item": "maksutingimuse kirjeldus",
+
+      "quantity": "tk",
+
+      "unit": "Üksus",
+
+      "price": "Hind",
+
+      "amount": "kogus",
+
+      "subtotal": "Kokku",
+
+      "agree_name": "Lepingu pealkiri",
+
+      "total": "Kokku",
+
+      "payment": "Makse",
+
+      "attach_file": "Lisa manuseid",
+
+      "note_to_recipient": "Sõnum saajale",
+
+      "terms_and_conditions": " Kasutustingimused "
+    },
+
+    "create_report": {
+      "search": "Otsi",
+
+      "report_name": "Aruande Nimi",
+
+      "project_name": "Projekti Nimi",
+
+      "task": "Ülesanne",
+
+      "address": "Aadress",
+
+      "status": "Staatus",
+
+      "add_report": "Lisa Aruanne",
+
+      "customer": "Klient",
+
+      "select_customer": "Vali klient",
+
+      "add_new": "Lisa uus",
+
+      "project": "Projekt",
+
+      "select_project": "Vali Projekt",
+
+      "name": "Nimi",
+
+      "please_select": "Palun valige",
+
+      "task_address": "Ülesande aadress",
+
+      "save": "Salvesta",
+
+      "active": "Aktiivne",
+
+      "done": "Tehtud",
+
+      "edit_roles": "Muuda rolli",
+
+      "edit": "Muuda",
+
+      "days": "Päeva",
+
+      "view_report": "Vaata aruanne",
+      "titleLength": "pealkiri peab olema vähemalt 5 tähemärki pikk"
+    },
+
+    "permission": {
+      "permission": " Kasutustingimused ",
+
+      "marketplace": " Majanduskoht ",
+
+      "my_business": "Minu äri",
+
+      "marketplace_prodesk": " Majanduskoht, Start",
+
+      "feeds": " Majanduskoht, Teated",
+
+      "materials": "Majanduskoht, Materialid",
+
+      "work": "Majanduskoht, Tööd/Tükitöö",
+
+      "materials_create": "Majanduskoht, Materialid, Loo Uus",
+
+      "materials_details": " Majanduskoht, Materialid, Detailid",
+
+      "work_create": " Majanduskoht, Tööd/Tükitööd, Loo Uus",
+
+      "work_details": " Majanduskoht, Tööd/Tükitööd, Detailid",
+
+      "my_contract": " Majanduskoht, Lepingud",
+
+      "my_bids": " Majanduskoht, Omad pakkumised",
+
+      "saved_jobs": " Majanduskoht, Lemmikud",
+
+      "my_business_prodesk": "Minu äri, Start",
+
+      "clients": "Minu äri, Klient",
+
+      "clients_create": " Minu äri, Klient, Loo uus",
+
+      "clients_edit": " Minu äri, Klient, Muuda",
+
+      "clients_delete": " Minu äri, Klient, Eemalda",
+
+      "proposal": " Minu äri, Pakkumine",
+
+      "proposal_create": " Minu äri, Pakkumine, Loo",
+
+      "proposal_template": " Minu äri, Pakkumise mustand",
+
+      "agreement": " Minu äri, Leping",
+
+      "agreement_create": " Minu äri, Leping, Loo",
+
+      "project": " Minu äri, Projekt",
+
+      "project_create": " Minu äri, Projekt, Loo Uus",
+
+      "project_create_task": " Minu äri, Projekt, Loo kiire Ülesanne",
+
+      "project_create_report": " Minu äri, Projekt, Loo Aruanne",
+
+      "project_archive_project": " Minu äri, Projekt, Arhiivi Projekt",
+
+      "project_edit": " Minu äri, Projekt, Muuda",
+
+      "project_archive": " Minu äri, Projektiarhiiv",
+
+      "project_gantt_chart": " Minu äri, Projekt, Gantt-tabel",
+
+      "project_messages": " Minu äri, Projekt, Teavitamine",
+
+      "project_summary": " Minu äri, Projekt, Kokkuvõte",
+
+      "project_close": " Minu äri, Projekt, Sulge",
+
+      "project_planning": " Minu äri, Projekt, Projekti Planeerimine",
+
+      "invoice": "Minu äri, Arved",
+
+      "invoice_create": " Minu äri, Arved, Loo Uus",
+
+      "resource": " Minu äri, Ressurssid",
+
+      "resource_create": " Minu äri, Ressurssid, Loo Uus",
+
+      "phase": " Minu äri, Töö astmed",
+
+      "phase_create": " Minu äri, Töö astmed, Loo Uus",
+
+      "save_permission": "Salvesta"
+    },
+
+    "bussiness_dashboard": {
+      "Yhteensä": "Kokku",
+
+      "heading": "Minu äri töölaud",
+
+      "proposals": "Pakkumised",
+
+      "agreements": "Lepingud",
+
+      "projects": "Projektid",
+
+      "billing": "Arveldamine",
+
+      "resources": "Ressurssid",
+
+      "requests": "Pakkumissoovid",
+
+      "Open": "Lahtised",
+
+      "Old": "Pakkumisajalugu",
+
+      "Expired": "Aegunud",
+
+      "Sopimushistoria": "Lepinguajalugu",
+
+      "customers": "Kliendid",
+
+      "Projekti_historia": "Projektiajalugu",
+
+      "Laskuhistoria": "Arvete ajalugu",
+
+      "Tarjouspyyntö_historia": "Pakkumissoovide ajalugu"
+    },
+
+    "modals": {
+      "errors": {
+        "first_name": "Eesnimi Kohustuslik",
+
+        "email": "Kohustuslik info",
+
+        "invalid": "Vale e-posti aadress",
+
+        "phone": "Telefon kohustuslik",
+
+        "last_name": "Perekonnanimi kohustuslik",
+
+        "type": "Maksutingimus Kohustuslik",
+
+        "days": "Kohustuslikke päevi"
+      },
+
+      "accept": {
+        "amount": "Pakkumine:",
+
+        "Your_message": "Minu sõnumid",
+
+        "Assign_contract": "Saada sõnum",
+
+        "check": "Nõustun kõikide maksete ja lepingutega",
+
+        "terms_and_condition": " kasutustingimused "
+      },
+
+      "decline": {
+        "Confirm": "Kinnita",
+
+        "select": "Valige",
+
+        "Applied_by_mistake": "Loodud kogemata",
+
+        "Scheduling_conflict_with_client": "Graafiku kattumine kliendiga",
+
+        "Unresponsive_client": "Klient ei vasta",
+
+        "Inappropriate_client_behavior": "Sobimatu kliendi käitumine",
+
+        "Don't_want": "Ei soovi praegusel hetkel jätkata",
+
+        "reason": "Tagasi lükkamise põhjus",
+
+        "message1": "Sõnum kliendile",
+
+        "feedback": "Tagasiside ProppU tiimile"
+      },
+
+      "project_plan": {
+        "add_all_fileds": "Soovid kindlasti lisada?",
+
+        "err_message": "Kas olete kindel, et soovite minna teisele lehele??",
+
+        "Select": "Valige",
+
+        "Create_template": "Loo projektimall",
+
+        "Name": "--Nimi--",
+
+        "heading": "Projekti planeerimine",
+
+        "select_area": "Valige regioon",
+
+        "template_name": "Malli Nimi",
+
+        "add_work_phase": "Lisa tööetapp",
+
+        "add": "Lisa",
+
+        "items": "Koht",
+
+        "AddRow": "Lisa rivi",
+
+        "duration": "Kestus (h)",
+
+        "amount": "Kogus",
+
+        "cost_hr": "Kulu/ h",
+
+        "unit_cost": "Ühikuhind",
+
+        "total_cost": "Kokku",
+
+        "add_to_proposal": "Lisa pakkumist",
+
+        "update_proposal": "Värskenda pakkumist",
+
+        "note": "Soovid salvestada projektiplaneerimise mudel..."
+      }
+    },
+
+    "phase": {
+      "cancel": "Tühista",
+
+      "yes_d": "Jah, eemalda klient",
+
+      "are_u_s": "Oled kindel?",
+
+      "phase": "Tööetapid",
+
+      "Edit": "Muuda",
+
+      "Create": "Loo",
+
+      "Delete": "Eemalda",
+
+      "Select": "Vali",
+
+      "create_phase": "Loo etapp",
+
+      "list_phase": "Minu töö etapid",
+
+      "create_area_work": "Loo Uus alakohane Töö",
+
+      "area_name": "Ala Nimi",
+
+      "work_area": "Töö Nimi"
+    },
+
+    "RatingModl": {
+      "Information": "Muuda firma andmeid",
+
+      "closing_project": " Projekti lõpetamise põhjus",
+
+      "contractor": " Hinda tarnija",
+
+      "Message": "Sõnum tarnijale",
+
+      "ProppU_experience": "ProppU kasutuskogemuse tagasiside",
+
+      "Confirm": "Kinnita"
+    },
+
+    "SendInvoice": {
+      "Email_Address": "Anna e-posti aadress",
+
+      "Save": "Salvesta"
+    },
+
+    "businessinfo": {
+      "Edit_Business": "Muuda firma andmeid",
+
+      "remove": "Eemalda",
+
+      "company_logo": "Lisa firma logo",
+
+      "First_Name": "Eesnimi",
+
+      "Last_Name": "Perekonnanimi",
+
+      "Address": "Aadress",
+
+      "Zip": "Postiindeks",
+
+      "Phone": "Telefon",
+
+      "Email": "E-post",
+
+      "Customer_ID": "Kliendi Id",
+
+      "Customer_Website": "Kliendi netilehekülg",
+
+      "Submit": "Salvesta"
+    },
+
+    "ProjectPlanOpen": {
+      "template": "Valige põhi",
+
+      "Name": "--Nimi--",
+
+      "Open": "Ava"
+    },
+
+    "ProjectPlanModal": {
+      "unique_plan_name": "Anna pakkumisele Nimi",
+
+      "Type": "Pakkumise tüüp",
+
+      "Work": "Tööd",
+
+      "Material": "Materjalid",
+
+      "Save": "Salvesta"
+    },
+
+    "proposal_pdf": {
+      "fixed": "Tükitöö",
+
+      "hourly": "Tunnihind",
+
+      "None": "Ei ole",
+
+      "Included": "Sisaldub",
+
+      "proposal_to": "Pakkumise saaja",
+
+      "agreement_to": "Lepingu saaja",
+
+      "proposal": "Pakkumine",
+
+      "agreement": "Leping",
+
+      "phone_no": "Telefoninumber:",
+
+      "business_ID": "Firma registrikood:",
+
+      "other_info": "Lisainfo",
+
+      "req": "Pakkumissoovi  tunnus #FK",
+
+      "prop_date": "Pakkumise kuupäev:",
+
+      "due_date": "Aegumiskuupäev:",
+
+      "proposal_summary": "Pakkumise kokkuvõte",
+
+      "work_cost": "Töökulud",
+
+      "material_cost": "Materjalikulu",
+
+      "total_cost": "Hind kokku",
+
+      "mat_pay": "Materjalide maksutingimused",
+
+      "work_pay": "Töö maksutingimused",
+
+      "terms": "Maksutingimused",
+
+      "milestones": "Maksegraafik",
+
+      "hourly_price": "Tunnihind",
+
+      "project_plan": "Projektiplaan",
+
+      "work": "Töö",
+
+      "material": "Materjal",
+
+      "proposal_details": "Pakkumise Lisainfo",
+
+      "guarantee_for_work": "Tagatis tööle",
+
+      "insurance": "Kindlustused",
+
+      "start_date": "Projekti algus:",
+
+      "end_date": "Projekti lõpp:",
+
+      "brand": "Powered by ProppU",
+
+      "trans": "Transpordi maksutingimused",
+
+      "panelty_terms": "Lepingutrahv",
+
+      "guarantee_insurance": "Garantiid ja kindlustused",
+
+      "guarantee_work": "Garantii tööle",
+
+      "guarantee_mat": "Garantii materjalidele",
+
+      "agreement_insurance": "Kindlustused",
+
+      "legal": "Vastutused",
+
+      "client_res": "Kliendi vastutused",
+
+      "contractor_res": "Tööandja vastutused",
+
+      "legal_terms": "Lepingu osapooled järgivat lepingutingimusi",
+
+      "bill_to": "Arveldatav",
+
+      "invoice": "Arve:",
+
+      "invoice_no": "Arve number:",
+
+      "invoice_date": "Kuupäev:",
+
+      "reference": "Viide:",
+
+      "account_number": "Arve number:",
+
+      "payment_duration": "Maksegraafik:",
+
+      "delay_interests": "Viivitusintress:",
+
+      "amount_due": "Kuni",
+
+      "description": "Kirjeldus",
+
+      "quantity": "Kogus",
+
+      "unit": "Ühik",
+
+      "price": "Hind",
+
+      "amount": "Tk",
+
+      "subtotal": "Summa",
+
+      "vat": "Maksud",
+
+      "total": "Summa",
+
+      "notes": "Märkused",
+
+      "_terms": " Tingimused ",
+
+      "condition": "Tingimused"
+    },
+
+    "agreement_vals": {
+      "responsibilities": {
+        "waterAvailability": "Vee saadavud",
+
+        "electricityAvailability": "Elektri saadavus",
+
+        "plumbingWork": "LVI tööd",
+
+        "electricalWork": "Elektritööd"
+      },
+
+      "legal": {
+        "timber": "Reys-8 1995",
+
+        "electricity": "Rys-9 1998",
+
+        "plumbing": "Yse 1998",
+
+        "select": "Valige"
+      }
+    },
+    "registerSuccess": {
+      "login": "Täname registreerumast. Nüüd saate sisse logida.",
+      "back": "Tagasi sisselogimise juurde",
+      "signIn": "Tagasi sisselogimiseks"
+    },
+    "error404": {
+      "heading": "Vabandame, lehte ei leitud",
+      "headingdescription": "Otsitava lehe nimi võib olla eemaldatud või see pole ajutiselt saadaval.",
+      "buttonbackhome": "Tagasi avalehele"
+    }
+  }
+}

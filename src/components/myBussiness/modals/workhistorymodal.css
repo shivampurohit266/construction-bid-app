@@ -1,0 +1,19 @@
+.work-files-dropzone{
+    display: flex;
+    justify-content: center;
+}
+.work-files-dropzone label{
+    position: relative;
+}
+.work-files-dropzone label span{
+    position: absolute;
+    height: 100% !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+.work-files-dropzone label img{
+    width: 350px;
+}

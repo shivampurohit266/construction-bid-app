@@ -1,0 +1,5 @@
+@media (max-width: 479px) {
+  .custom-table-offer thead tr th:nth-child(2) {
+    display: block !important;
+  }
+}

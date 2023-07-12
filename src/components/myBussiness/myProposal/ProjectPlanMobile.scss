@@ -1,0 +1,184 @@
+.project-planning-modal{
+    input , select{
+        border: 1px solid #E9E9ED;
+        background: #E9E9ED;
+    }
+    input {
+        color: #000;
+        width: 100%;
+        padding-left: 12px;
+        font-size: 13px;
+    }
+    & > .flex{
+        align-items: start;
+    }
+    .close{
+        margin-top: 0;
+    }
+    .btn{
+        padding:6px 30px;
+        // margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 850px){
+    #wrapper{
+        .project-planning-modal{
+            .grid-form{
+               grid-template-columns: 1fr;
+           }
+           #total-amount{
+              max-width: 100%;
+           }
+       }
+    }
+}
+@media screen and (max-width: 768px){
+    .main-content{
+       .page-content.project-planning-mobile{
+            background: linear-gradient(to bottom , #F2F4F4 30%, #fff 50%);
+            display: flex;
+            padding-bottom: 0;
+        }
+    }
+   
+     .project-planning-mobile .container-fluid,
+     .main-content .page-content.project-planning-mobile,
+     .main-content .page-content.project-planning-mobile .card .card-body {
+      padding-left: 0;
+      padding-right: 0; 
+    }
+    .main-content .page-content.project-planning-mobile .card .card-body , .project-planning-tabs .nav li a{
+        padding-top: 4px;
+    }
+    .project-planning-mobile h3 , 
+    .nav.nav-pills , 
+    .template_mobile_container , 
+    .template_mobile h2 , 
+    .template_table, 
+    .template_table_item{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-planning-mobile .card{
+        background-color: transparent;
+        min-height:100vh;
+        margin-bottom: 0;
+    } 
+    .main-content .project-planning-mobile.page-content .card{
+        margin-bottom:0;
+    }
+    .project-planning-tabs .nav-pills li , .project-planning-tabs .row{
+       text-transform: uppercase;
+       margin-bottom: 0;
+
+    }
+    .project-planning-tabs .nav-pills li a , .prop_items div{
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .prop_items div{
+        color: #616262;
+    }
+    .template_mobile{
+        padding-top: 16px;
+    }
+    .template_mobile_to{
+        margin-bottom: 30px;
+    }
+    .template_table_item , .template_table_title{
+        grid-template-columns: 40% repeat(2, 1fr) 25px 25px;
+        grid-gap: 15px;
+
+        span{
+            word-wrap: anywhere;
+        }
+    }
+    .project-planning-tabs .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .customerIDCell:nth-child(odd) ,.project-planning-mobile #wrapper select{
+        background: #fff;
+    }
+    #work-material{
+        .sub_total_area{
+            margin-bottom: 30px;
+        }
+    }
+    .sub_total_input_box {
+        input{
+            border: 0.8px solid #E8E8E8;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            height: 40px;
+            padding-left: 13px;
+            max-width: 70px;
+        }
+        .sub_total_items{
+            grid-template-columns: repeat(3 , 1fr)
+        }
+    }
+    .save_template_btn{
+        button{
+            border-radius: 2px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+   
+    .project-planning-mobile{
+        button.close{
+            margin-top: 0;
+        }
+    }
+    
+    #work-material{
+        h2{
+            // padding-top: 30px;
+            // padding-left: 0;
+           &:nth-child(3) {
+            margin-top: 50px;
+        }
+        .sub_total_box {
+           margin-bottom: 30px;
+        }
+        &:last-child{
+            padding-bottom: 50px;
+        }
+        }
+    }
+    .project-planning-mobile #wrapper{
+        bottom: 0;
+        align-items: end;
+        .project-planning-modal{
+          height: max-content;
+        }
+        h3{
+            padding-left: 0;
+        }
+    }
+    
+    .project-planning-modal{
+
+    }
+   
+}
+@media (max-width: 576px) {
+    .modal-dialog-centered.modal-dialog{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width:375px){
+    .project-planning-mobile{
+        .project-planning-modal{
+            button.close{
+                position: unset;
+            }
+        } 
+    }
+}

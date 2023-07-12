@@ -1,0 +1,94 @@
+.main-content .page-content .container-fluid .shared-profile-main{
+  /* margin: 5rem 10rem; */
+  margin: 4% 7.5%;
+}
+
+.profile-container {
+  background-color: #f2f4f4;
+  padding: 5rem 10rem 0 10rem;
+  max-height: 100vh;
+  overflow: auto;
+}
+.public-profile {
+  display: flex;
+  flex-direction: column;
+}
+.myProfile-image-name {
+  margin-bottom: 0rem;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 6rem;
+  margin: 0 2rem;
+}
+.myProfile-work {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 102px 10px 60px 10px;
+  margin-bottom: 5rem;
+}
+.profile-header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  max-width: 42rem;
+  /* height: 6rem; */
+}
+
+.profile-header-right a {
+  font-size: 16px;
+  color: #000;
+}
+
+.profile-header-right a:hover {
+  text-decoration: none;
+}
+
+.profile-sign-up {
+  background-color: #9c8ec1;
+
+  border: none;
+  color: #fff !important;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  padding: 10px 15px;
+}
+
+.myProfile-right-shared {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12rem;
+}
+.work-history-img.myAcc-work-history-section{
+  width: 100%;
+}
+.work-history-img img{
+  object-fit: contain;
+  object-position: center;
+}
+@media only screen and (max-width: 860px) {
+  .myProfile-right-shared {
+    margin-top: 2rem;
+  }
+  .profile-container {
+    max-height: 110vh;
+
+    padding: 3rem;
+    overflow: auto;
+  }
+  .shared-profile-main .myProfile{
+      flex-wrap: unset;
+  }
+  .shared-profile-main .myProfile-skills ul{
+     flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,95 @@
+* {
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.button-container {
+  padding-left: 15px;
+  margin-bottom: 34.5px;
+  display: flex;
+  flex-direction: row;
+}
+.content-header-tabs button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 15px;
+  text-align: center;
+  width: 213.22px;
+  height: 29.72px;
+  /* background: rgba(128, 128, 128, 0.075); */
+  cursor: pointer;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.274); */
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+/* .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  } */
+
+.content-header-tabs button.active {
+  background: #fff;
+  border-bottom: 1px solid transparent;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+button {
+  border: none;
+}
+.content-tabs {
+  padding-top: 20px;
+  flex-grow: 1;
+}
+.content {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  /* display: none; */
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+
+@media (max-width: 479px) {
+  .content-header-tabs button {
+    font-size: 11px;
+    width: 100%;
+  }
+  .button-container {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .content-header-tabs {
+    padding: 0 15px;
+  }
+  .content-header-tabs button.active {
+    font-size: 11px;
+  }
+}

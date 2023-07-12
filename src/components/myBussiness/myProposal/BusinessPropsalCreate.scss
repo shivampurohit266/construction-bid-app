@@ -1,0 +1,51 @@
+.business-proposal-create{
+    .main-content .page-content{
+        .form-group{
+            .offer-tab-design{               
+                .add-plan{
+                    font-size: 15px;
+                    font-weight: 500;
+                    height: 100%;
+                    padding: 20px;
+                    border-radius: 0;       
+                }
+            } 
+            .btn.btn-light.add-plan.border.bg-light.text-dark{              
+                &:focus {
+                    border: 1px solid #0C8DC3 !important;
+                    color: #0C8DC3 !important;
+                    background-color: #F2F4F4 !important;
+                }
+            }
+            .plan-list{
+              padding: 15px 20px 30px;
+              display: flex;
+              flex-direction: column;
+
+              ul{
+                flex-grow: 1;
+                &.hide{
+                    display: none;
+                }
+                
+                li{
+                    font-weight: 400;
+                 }                
+              } 
+              .edit-plan button{                
+                    width: 100%;    
+                    color: #538CD1;  
+                    font-size: 15px;      
+              }
+
+            }  
+        }
+       
+    }
+    
+    .gutters-24 > [class*="col"]{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+}

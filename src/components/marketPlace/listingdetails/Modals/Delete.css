@@ -1,0 +1,39 @@
+.delete-listing {
+  position: absolute;
+  left: 35%;
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  width: 32em;
+  padding: 1.25rem;
+  margin: auto;
+  border-radius: 0.3125em;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 5600;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.delete-listing-btn {
+  margin-right: 3rem;
+  margin-top: 5rem;
+  padding: 8px 30px !important;
+  font-size: 1.4rem !important;
+}
+
+.cancel-listing-btn {
+  padding: 8px 30px !important;
+  font-size: 1.4rem !important;
+  margin-top: 5rem;
+}

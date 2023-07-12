@@ -1,0 +1,138 @@
+.card-one,
+.card-two {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 3rem 0px;
+}
+.card-three {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 3rem 0px;
+}
+.subcard-one,
+.subcard-two,
+.subcard-three {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.p-invalid .w-full .md:w-20rem {
+  /* min-height: 4rem;
+  margin: 1rem 0;
+  border: 1px solid #e0e1e1;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  padding-left: 10px; */
+}
+
+.task-name,
+.estimation {
+  min-height: 4rem;
+  margin: 1rem 0;
+  border: 1px solid #e0e1e1;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  padding-left: 10px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+.add-address {
+  min-height: 4rem;
+  background-color: #e7e8e8;
+  border-radius: 5px;
+  border: 1px solid #e0e1e1;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  padding-left: 10px;
+}
+.select-customer {
+  border-radius: 5px;
+}
+.task-description {
+  min-height: 8rem;
+  margin-top: 1rem;
+  background-color: #e7e8e8;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+input.form-control-date {
+  height: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 1rem;
+  border: 1px solid #e0e1e1;
+}
+
+.start-date,
+.end-date {
+  width: 50%;
+  margin: 1rem 0;
+}
+.publish {
+  height: 40.33391189575195px;
+  width: 151.375244140625px;
+  left: 33.437255859375px;
+  top: 731px;
+  border-radius: 2px;
+  background: #0790c9;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-right: 3rem;
+}
+.save {
+  width: 100.31px;
+  height: 40.33px;
+  left: 439.93px;
+  top: 953px;
+  font-size: 1.4rem;
+  background: #f2f4f4;
+  border: 1px solid #e4e4e4;
+  border-radius: 2px;
+  color: #000;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 576px) {
+  .subcard-one,
+  .subcard-two,
+  .subcard-three {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .card-one,
+  .card-two,
+  .card-three {
+    width: 100%;
+  }
+  .start-date,
+  .end-date {
+    width: 100%;
+  }
+}
+#submit_btn {
+  margin-top: 55px !important;
+}
+#description {
+  height: 110px !important;
+  background-color: #e6e8e8;
+}

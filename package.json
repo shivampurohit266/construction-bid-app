@@ -1,0 +1,90 @@
+{
+  "name": "proppu-react-ui",
+  "homepage": "http://app.proppu.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@progress/kendo-react-dropdowns": "^4.5.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "ag-grid-react": "^25.3.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "browser-image-compression": "^2.0.0",
+    "dayjs": "^1.11.7",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.2.9",
+    "i18next": "^19.5.3",
+    "i18next-browser-languagedetector": "^5.0.0",
+    "i18next-xhr-backend": "^3.2.2",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-dist": "^1.12.1",
+    "moment": "^2.29.1",
+    "multiselect-react-dropdown": "^1.6.11",
+    "ngx-shimmering-loader": "^1.0.5",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-autocomplete": "^1.8.1",
+    "react-autosuggest": "^10.0.3",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-datepicker": "^4.2.1",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.13.1",
+    "react-files": "^3.0.0-alpha.1",
+    "react-flags-select": "^2.2.3",
+    "react-i18next": "^11.7.0",
+    "react-js-pagination": "^3.0.3",
+    "react-multiple-select-dropdown": "^3.0.0",
+    "react-multiple-select-dropdown-lite": "^2.0.4",
+    "react-multiselect-dropdown-bootstrap": "^1.1.0",
+    "react-notifications": "^1.7.2",
+    "react-notify-toast": "^0.5.1",
+    "react-paginate": "^7.1.3",
+    "react-phone-input-2": "^2.13.9",
+    "react-phone-number-input": "^2.2.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "react-scrollable-feed": "^1.3.1",
+    "react-select": "^3.1.0",
+    "react-spinners": "^0.13.6",
+    "react-tabs": "^3.1.2",
+    "react-to-print": "^2.12.3",
+    "reactstrap": "^8.9.0",
+    "serve": "^11.3.2",
+    "socket.io-client": "^4.6.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "start-with-older-node": "react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^3.9.10"
+  }
+}

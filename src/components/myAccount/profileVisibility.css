@@ -1,0 +1,39 @@
+.profile-modal {
+  position: absolute;
+  background-color: white;
+  z-index: 5;
+  top: 100%;
+  /* left: 45%; */
+  box-shadow: 5px 10px 8px #dbdada;
+  border-radius: 5px;
+  margin-top: 8px;
+  border: 1px solid #dadbdb;
+  padding: 1.5rem;
+}
+
+.profile-modal p {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.profile-close {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-modal select {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.profile-message {
+  display: flex;
+}
+
+.profile-message p {
+  width: 50%;
+  text-align: center;
+}

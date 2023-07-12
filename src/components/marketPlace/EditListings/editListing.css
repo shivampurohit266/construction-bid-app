@@ -1,0 +1,136 @@
+.editMaterials {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.editMaterials-form {
+  display: flex;
+  flex-direction: row;
+
+  gap: 5rem;
+  padding: 4rem;
+}
+
+.editMaterials-left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.editMaterials-right {
+  width: 50%;
+}
+
+.editMaterials-volume {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editMaterials-label {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.edit-cost {
+  width: 30%;
+}
+
+.edit-cost-volume {
+  width: 35%;
+  display: flex;
+}
+
+.editMaterials-label input,
+select {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #e0e1e1;
+  font-size: 1.4rem;
+  border-radius: 0;
+  padding: 0 12px;
+}
+
+.editMaterials-label textarea {
+  padding: 10px;
+}
+.editMaterials-check {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.editMaterials-check input {
+  margin-right: 1rem;
+}
+
+.edit-files-dropzone {
+  width: 160px;
+  cursor: pointer;
+  background: #fcfcfc;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+}
+
+.edit-files-dropzone label {
+  cursor: pointer;
+}
+
+.edit-form-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.edit-save {
+  font-size: 1.5rem;
+}
+
+.progress-bar {
+  transition: width 2s ease !important;
+}
+
+.cannot-bid {
+  margin: 0;
+  color: #000;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .editMaterials-form {
+    justify-content: space-between;
+  }
+  .editMaterials-left {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .editMaterials-form {
+    flex-direction: column;
+  }
+  .editMaterials-left {
+    width: 100%;
+  }
+  .editMaterials-right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .edit-make-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .edit-cost {
+    width: 100%;
+  }
+  .edit-cost-volume {
+    width: 100%;
+  }
+  .rdt {
+    width: 100% !important;
+  }
+}

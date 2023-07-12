@@ -1,0 +1,76 @@
+.language-dropdown {
+  position: absolute;
+  top: 53px;
+  right: -10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100px;
+  height: 130px;
+  box-shadow: 0 0 14px -2px rgb(0 0 0 / 10%);
+  border: 1px solid #e6e6e6;
+  border-radius: 7px;
+  z-index: 999;
+}
+
+.language-active {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-right: 0px !important;
+  font-size: inherit !important;
+}
+
+.language-inactive {
+  margin-right: 0px !important;
+  font-size: inherit !important;
+}
+
+.language-inactive:hover {
+  background-color: #000;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.language-none {
+  display: none;
+}
+.container-box {
+  width: 100%;
+  height: 50px;
+  background-color: #f3f1f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-content {
+  font-size: 17px;
+  font-weight: 500;
+}
+#membership {
+  scroll-behavior: smooth;
+}
+@media only screen and (max-width: 765px) {
+  .language-nav {
+    margin-right: 50px;
+  }
+}
+
+.sidebarExpandBtn {
+  border-radius: 50% !important;
+  width: 20px;
+  height: 20px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center !important;
+  padding-top: 5px !important;
+}
+@media only screen and (max-width: 890px) {
+  .header-banner {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+}

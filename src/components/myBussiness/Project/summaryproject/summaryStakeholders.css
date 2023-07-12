@@ -1,0 +1,55 @@
+.stakeholders-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+}
+.stakeholders-manager,
+.stakeholders-client {
+  width: 25%;
+}
+.stakeholders-name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.stakeholders-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 0;
+}
+.stakeholders-email,
+.stakeholders-number,
+.stakeholders-company {
+  font-size: 13px;
+  color: #000000;
+  padding: 0.5rem 0;
+}
+.stakeholders-email {
+  margin-top: 18px;
+}
+.stakeholders-member {
+  width: 25%;
+}
+.stakeholders-members {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.stakeholders-other-members {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+.stakeholders-company {
+  margin-bottom: 2rem;
+}
+@media (max-width: 479px) {
+  .stakeholders-manager,
+  .stakeholders-client {
+    width: 50%;
+  }
+  .stakeholders-member {
+    width: 50%;
+  }
+}
